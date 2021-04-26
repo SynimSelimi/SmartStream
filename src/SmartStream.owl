@@ -68,11 +68,66 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#creates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#displays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#follows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interacts_with"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_displayed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_played_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#plays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#watches"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#first_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#last_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#phone_number"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stream_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#user_1"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#creator"/>
     </Declaration>
+    <Declaration>
+        <Datatype IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#phoneNumber"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
@@ -81,6 +136,203 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_displayed_in"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <NamedIndividual IRI="#stream_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#displays"/>
+        <NamedIndividual IRI="#stream_1"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#plays"/>
+        <NamedIndividual IRI="#user_1"/>
+        <NamedIndividual IRI="#stream_1"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#creates"/>
+        <ObjectProperty IRI="#interacts_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#is_played_by"/>
+        <ObjectProperty IRI="#interacts_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#plays"/>
+        <ObjectProperty IRI="#interacts_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#watches"/>
+        <ObjectProperty IRI="#interacts_with"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_displayed_in"/>
+        <ObjectProperty IRI="#displays"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is_played_by"/>
+        <ObjectProperty IRI="#plays"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#creates"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#displays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interacts_with"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_displayed_in"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_played_by"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#watches"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#creates"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#creates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#displays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#displays"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#displays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#follows"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interacts_with"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interacts_with"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_displayed_in"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_displayed_in"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_displayed_in"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_played_by"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_played_by"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_played_by"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#plays"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#plays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#watches"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#watches"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#watches"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#email"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#phone_number"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#email"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#first_name"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#last_name"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#phone_number"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#email"/>
+        <Datatype IRI="#email"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#first_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#last_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#phone_number"/>
+        <Datatype IRI="#phoneNumber"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
 </Ontology>
 
 
