@@ -1,38 +1,29 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE Ontology [
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream">
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&xsd;decimal">1.0</Literal>
+        <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-8#creator"/>
+        <Literal xml:lang="en">Gentris Leci
+Synim Selimi</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SmartStream is an ontology, which represents streaming service systems and their inherent details.</Literal>
+        <Literal xml:lang="en">SmartStream is an ontology, which represents streaming service systems and their inherent details.</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-8#creator"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gentris Leci
-Synim Selimi</Literal>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.0</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
@@ -124,6 +115,9 @@ Synim Selimi</Literal>
     <Declaration>
         <Datatype IRI="#phoneNumber"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-8#creator"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
@@ -136,6 +130,38 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Nothing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Category"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DisjointClasses>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#is_displayed_in"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
@@ -168,8 +194,8 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#interacts_with"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#is_displayed_in"/>
         <ObjectProperty IRI="#displays"/>
+        <ObjectProperty IRI="#is_displayed_in"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#is_played_by"/>
@@ -337,5 +363,5 @@ Synim Selimi</Literal>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
