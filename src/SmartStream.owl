@@ -92,10 +92,16 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#allows"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#creates"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#displays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enables"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#follows"/>
@@ -113,13 +119,16 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#pays"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#plays"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#pays_once"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#pays_regularly"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#plays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#watches"/>
@@ -265,8 +274,16 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#stream_1"/>
     </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#allows"/>
+        <ObjectProperty IRI="#enables"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#creates"/>
         <ObjectProperty IRI="#interacts_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#displays"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#is_displayed_in"/>
@@ -277,16 +294,20 @@ Synim Selimi</Literal>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#plays"/>
-        <ObjectProperty IRI="#interacts_with"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#pays_once"/>
         <ObjectProperty IRI="#pays"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#pays_regularly"/>
         <ObjectProperty IRI="#pays"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#plays"/>
+        <ObjectProperty IRI="#interacts_with"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#provides"/>
+        <ObjectProperty IRI="#enables"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#watches"/>
@@ -300,6 +321,17 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#is_played_by"/>
         <ObjectProperty IRI="#plays"/>
     </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allows"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allows"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#allows"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#creates"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
@@ -319,10 +351,6 @@ Synim Selimi</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#is_played_by"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#plays"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#pays_once"/>
@@ -347,9 +375,28 @@ Synim Selimi</Literal>
         </ObjectExactCardinality>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#provides"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#watches"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#allows"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#creates"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
@@ -369,10 +416,6 @@ Synim Selimi</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#is_played_by"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#plays"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#pays_once"/>
@@ -383,19 +426,20 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#plays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#watches"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#creates"/>
-        <ObjectProperty IRI="#displays"/>
-        <ObjectProperty IRI="#follows"/>
-        <ObjectProperty IRI="#is_displayed_in"/>
-        <ObjectProperty IRI="#is_played_by"/>
-        <ObjectProperty IRI="#plays"/>
-        <ObjectProperty IRI="#pays_once"/>
-        <ObjectProperty IRI="#pays_regularly"/>
-        <ObjectProperty IRI="#watches"/>
+        <ObjectProperty IRI="#allows"/>
+        <ObjectProperty IRI="#provides"/>
     </DisjointObjectProperties>
     <SubDataPropertyOf>
         <DataProperty IRI="#email"/>
