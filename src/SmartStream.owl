@@ -147,10 +147,19 @@ Synim Selimi</Literal>
         <DataProperty IRI="#cost"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#country"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#date"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#distributer"/>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#director"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#distributor"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#email"/>
@@ -175,6 +184,9 @@ Synim Selimi</Literal>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#phoneNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#producer"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#rating"/>
@@ -499,6 +511,10 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#allows"/>
         <ObjectProperty IRI="#provides"/>
     </DisjointObjectProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#director"/>
+        <DataProperty IRI="#producer"/>
+    </EquivalentDataProperties>
     <SubDataPropertyOf>
         <DataProperty IRI="#address"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -508,11 +524,23 @@ Synim Selimi</Literal>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#country"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#date"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
-        <DataProperty IRI="#distributer"/>
+        <DataProperty IRI="#description"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#director"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#distributor"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -545,6 +573,10 @@ Synim Selimi</Literal>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#phoneNumber"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#producer"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -588,7 +620,19 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#distributer"/>
+        <DataProperty IRI="#country"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#director"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#distributor"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -626,6 +670,10 @@ Synim Selimi</Literal>
     <DataPropertyDomain>
         <DataProperty IRI="#phoneNumber"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#producer"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#rating"/>
@@ -676,7 +724,23 @@ Synim Selimi</Literal>
         <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#distributer"/>
+        <DataProperty IRI="#country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#director"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#distributor"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -712,8 +776,12 @@ Synim Selimi</Literal>
         <Datatype IRI="#phoneNumber"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#producer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#rating"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#registrationDate"/>
@@ -743,6 +811,31 @@ Synim Selimi</Literal>
         <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
+    <DisjointDataProperties>
+        <DataProperty IRI="#address"/>
+        <DataProperty IRI="#cost"/>
+        <DataProperty IRI="#country"/>
+        <DataProperty IRI="#description"/>
+        <DataProperty IRI="#director"/>
+        <DataProperty IRI="#distributor"/>
+        <DataProperty IRI="#email"/>
+        <DataProperty IRI="#extension"/>
+        <DataProperty IRI="#firstName"/>
+        <DataProperty IRI="#format"/>
+        <DataProperty IRI="#industry"/>
+        <DataProperty IRI="#lastName"/>
+        <DataProperty IRI="#length"/>
+        <DataProperty IRI="#phoneNumber"/>
+        <DataProperty IRI="#producer"/>
+        <DataProperty IRI="#rating"/>
+        <DataProperty IRI="#registrationDate"/>
+        <DataProperty IRI="#releaseDate"/>
+        <DataProperty IRI="#runningTime"/>
+        <DataProperty IRI="#streamDate"/>
+        <DataProperty IRI="#title"/>
+        <DataProperty IRI="#uploadDate"/>
+        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
+    </DisjointDataProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#length</IRI>
@@ -751,7 +844,7 @@ Synim Selimi</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#rating</IRI>
-        <Literal>Stream or Streamble scaled integer rating</Literal>
+        <Literal>Stream or Streamble rating</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
