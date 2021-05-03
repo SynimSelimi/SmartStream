@@ -213,13 +213,121 @@ Synim Selimi</Literal>
         <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Action_and_Adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anime_Features"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anime_Series"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Breaking_Bad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#British_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Children_and_Family_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comedies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crime_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Documentaries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Docuseries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dramas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horror_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Independent_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#International_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#International_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Korean_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LGBTQ_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Music_and_Musicals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reality_TV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romantic_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romantic_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sci_Fi_and_Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Science_and_Nature_TV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sports_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stand_Up_Comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV_Action_and_Adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV_Comedies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV_Dramas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV_Horror"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV_Mysteries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV_Sci_Fi_and_Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TV_Thrillers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teen_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thrillers"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#stream_1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#user_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kids&apos;_TV"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#creator"/>
@@ -328,6 +436,150 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Action_and_Adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Anime_Features"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Anime_Series"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#British_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Children_and_Family_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Comedies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Crime_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Documentaries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Docuseries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Dramas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Horror_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Independent_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#International_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#International_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Korean_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#LGBTQ_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Music_and_Musicals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Reality_TV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Romantic_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Romantic_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Sci_Fi_and_Fantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Science_and_Nature_TV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Sports_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Stand_Up_Comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#TV_Action_and_Adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#TV_Comedies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#TV_Dramas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#TV_Horror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#TV_Mysteries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#TV_Sci_Fi_and_Fantasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#TV_Thrillers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Teen_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Thrillers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Kids&apos;_TV"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isDisplayedIn"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
@@ -343,6 +595,366 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#user_1"/>
         <NamedIndividual IRI="#stream_1"/>
     </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Action_and_Adventure"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Action_and_Adventure"/>
+        <Literal>Action  and  Adventure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Anime_Features"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Anime_Features"/>
+        <Literal>Anime Features</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Anime_Series"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Anime_Series"/>
+        <Literal>Anime Series</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#British_TV_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#British_TV_Shows"/>
+        <Literal>British TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Children_and_Family_Movies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Children_and_Family_Movies"/>
+        <Literal>Children  and  Family Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Comedies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Comedies"/>
+        <Literal>Comedies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Crime_TV_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Crime_TV_Shows"/>
+        <Literal>Crime TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Documentaries"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Documentaries"/>
+        <Literal>Documentaries</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Docuseries"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Docuseries"/>
+        <Literal>Docuseries</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Dramas"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Dramas"/>
+        <Literal>Dramas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Horror_Movies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Horror_Movies"/>
+        <Literal>Horror Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Independent_Movies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Independent_Movies"/>
+        <Literal>Independent Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#International_Movies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#International_Movies"/>
+        <Literal>International Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#International_TV_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#International_TV_Shows"/>
+        <Literal>International TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Korean_TV_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Korean_TV_Shows"/>
+        <Literal>Korean TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#LGBTQ_Movies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#LGBTQ_Movies"/>
+        <Literal>LGBTQ Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Music_and_Musicals"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Music_and_Musicals"/>
+        <Literal>Music  and  Musicals</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Reality_TV"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Reality_TV"/>
+        <Literal>Reality TV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Romantic_Movies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Romantic_Movies"/>
+        <Literal>Romantic Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Romantic_TV_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Romantic_TV_Shows"/>
+        <Literal>Romantic TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Sci_Fi_and_Fantasy"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Sci_Fi_and_Fantasy"/>
+        <Literal>Sci-Fi  and  Fantasy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Science_and_Nature_TV"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Science_and_Nature_TV"/>
+        <Literal>Science  and  Nature TV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
+        <Literal>Spanish-Language TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Sports_Movies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Sports_Movies"/>
+        <Literal>Sports Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Stand_Up_Comedy"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Stand_Up_Comedy"/>
+        <Literal>Stand-Up Comedy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
+        <Literal>Stand-Up Comedy  and  Talk Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#TV_Action_and_Adventure"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TV_Action_and_Adventure"/>
+        <Literal>TV Action  and  Adventure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#TV_Comedies"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TV_Comedies"/>
+        <Literal>TV Comedies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#TV_Dramas"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TV_Dramas"/>
+        <Literal>TV Dramas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#TV_Horror"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TV_Horror"/>
+        <Literal>TV Horror</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#TV_Mysteries"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TV_Mysteries"/>
+        <Literal>TV Mysteries</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#TV_Sci_Fi_and_Fantasy"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TV_Sci_Fi_and_Fantasy"/>
+        <Literal>TV Sci-Fi  and  Fantasy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#TV_Thrillers"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TV_Thrillers"/>
+        <Literal>TV Thrillers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Teen_TV_Shows"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Teen_TV_Shows"/>
+        <Literal>Teen TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Thrillers"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Thrillers"/>
+        <Literal>Thrillers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Kids&apos;_TV"/>
+        <Literal>Netflix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Kids&apos;_TV"/>
+        <Literal>Kids&apos; TV</Literal>
+    </DataPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#allows"/>
         <ObjectProperty IRI="#enables"/>
