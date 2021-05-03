@@ -102,6 +102,12 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#allows"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#classifiesAs"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#creates"/>
     </Declaration>
     <Declaration>
@@ -115,6 +121,9 @@ Synim Selimi</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interactsWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isA"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isDisplayedIn"/>
@@ -162,10 +171,16 @@ Synim Selimi</Literal>
         <DataProperty IRI="#distributor"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#email"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#extension"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#feedbackRating"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#firstName"/>
@@ -178,9 +193,6 @@ Synim Selimi</Literal>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#lastName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#length"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#phoneNumber"/>
@@ -196,6 +208,9 @@ Synim Selimi</Literal>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#releaseDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#review"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#runningTime"/>
@@ -229,6 +244,9 @@ Synim Selimi</Literal>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Children_and_Family_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cobra_Kai"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Comedies"/>
@@ -449,12 +467,20 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Anime_Series"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Episodic"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#British_TV_Shows"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Children_and_Family_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episodic"/>
+        <NamedIndividual IRI="#Cobra_Kai"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -581,9 +607,34 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Kids&apos;_TV"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#classifiesAs"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <NamedIndividual IRI="#Crime_TV_Shows"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#classifiesAs"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <NamedIndividual IRI="#TV_Dramas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#classifiesAs"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <NamedIndividual IRI="#TV_Thrillers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isDisplayedIn"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
         <NamedIndividual IRI="#stream_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Cobra_Kai"/>
+        <NamedIndividual IRI="#TV_Action_and_Adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#Cobra_Kai"/>
+        <NamedIndividual IRI="#TV_Dramas"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#displays"/>
@@ -624,6 +675,36 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Anime_Series"/>
         <Literal>Anime Series</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>United States</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>A high school chemistry teacher dying of cancer teams with a former student to secure his family&apos;s f...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>5 Seasons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rating"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>TV-MA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-02T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -955,9 +1036,21 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Kids&apos;_TV"/>
         <Literal>Kids&apos; TV</Literal>
     </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty IRI="#classifiesAs"/>
+    </EquivalentObjectProperties>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#allows"/>
         <ObjectProperty IRI="#enables"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty IRI="#isA"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#classifiesAs"/>
+        <ObjectProperty IRI="#isA"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#creates"/>
@@ -966,6 +1059,10 @@ Synim Selimi</Literal>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#displays"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isA"/>
+        <ObjectProperty IRI="#isA"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isDisplayedIn"/>
@@ -1156,11 +1253,19 @@ Synim Selimi</Literal>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#duration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#email"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#extension"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#feedbackRating"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -1177,10 +1282,6 @@ Synim Selimi</Literal>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#lastName"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#length"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -1202,6 +1303,10 @@ Synim Selimi</Literal>
     <SubDataPropertyOf>
         <DataProperty IRI="#releaseDate"/>
         <DataProperty IRI="#date"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#review"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#runningTime"/>
@@ -1248,12 +1353,20 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#email"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#extension"/>
         <Class IRI="#StreambleFormat"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#feedbackRating"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#firstName"/>
@@ -1272,24 +1385,12 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#length"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#length"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#phoneNumber"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#producer"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#rating"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#rating"/>
@@ -1302,6 +1403,10 @@ Synim Selimi</Literal>
     <DataPropertyDomain>
         <DataProperty IRI="#releaseDate"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#review"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#runningTime"/>
@@ -1356,12 +1461,20 @@ Synim Selimi</Literal>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#email"/>
         <Datatype IRI="#email"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#extension"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#feedbackRating"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#firstName"/>
@@ -1378,10 +1491,6 @@ Synim Selimi</Literal>
     <DataPropertyRange>
         <DataProperty IRI="#lastName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#length"/>
-        <Datatype abbreviatedIRI="xsd:double"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#phoneNumber"/>
@@ -1402,6 +1511,10 @@ Synim Selimi</Literal>
     <DataPropertyRange>
         <DataProperty IRI="#releaseDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#review"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#runningTime"/>
@@ -1427,31 +1540,81 @@ Synim Selimi</Literal>
         <DataProperty IRI="#address"/>
         <DataProperty IRI="#cost"/>
         <DataProperty IRI="#country"/>
+        <DataProperty IRI="#date"/>
         <DataProperty IRI="#description"/>
         <DataProperty IRI="#director"/>
         <DataProperty IRI="#distributor"/>
+        <DataProperty IRI="#duration"/>
+        <DataProperty IRI="#email"/>
+        <DataProperty IRI="#extension"/>
+        <DataProperty IRI="#feedbackRating"/>
+        <DataProperty IRI="#firstName"/>
+        <DataProperty IRI="#format"/>
+        <DataProperty IRI="#industry"/>
+        <DataProperty IRI="#lastName"/>
+        <DataProperty IRI="#phoneNumber"/>
+        <DataProperty IRI="#producer"/>
+        <DataProperty IRI="#rating"/>
+        <DataProperty IRI="#review"/>
+        <DataProperty IRI="#runningTime"/>
+        <DataProperty IRI="#title"/>
+        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#address"/>
+        <DataProperty IRI="#cost"/>
+        <DataProperty IRI="#country"/>
+        <DataProperty IRI="#date"/>
+        <DataProperty IRI="#description"/>
+        <DataProperty IRI="#director"/>
+        <DataProperty IRI="#distributor"/>
+        <DataProperty IRI="#duration"/>
         <DataProperty IRI="#email"/>
         <DataProperty IRI="#extension"/>
         <DataProperty IRI="#firstName"/>
         <DataProperty IRI="#format"/>
         <DataProperty IRI="#industry"/>
         <DataProperty IRI="#lastName"/>
-        <DataProperty IRI="#length"/>
         <DataProperty IRI="#phoneNumber"/>
         <DataProperty IRI="#producer"/>
         <DataProperty IRI="#rating"/>
+        <DataProperty IRI="#review"/>
+        <DataProperty IRI="#runningTime"/>
+        <DataProperty IRI="#title"/>
+        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#address"/>
+        <DataProperty IRI="#cost"/>
+        <DataProperty IRI="#country"/>
+        <DataProperty IRI="#date"/>
+        <DataProperty IRI="#description"/>
+        <DataProperty IRI="#director"/>
+        <DataProperty IRI="#distributor"/>
+        <DataProperty IRI="#duration"/>
+        <DataProperty IRI="#email"/>
+        <DataProperty IRI="#extension"/>
+        <DataProperty IRI="#firstName"/>
+        <DataProperty IRI="#format"/>
+        <DataProperty IRI="#industry"/>
+        <DataProperty IRI="#lastName"/>
+        <DataProperty IRI="#phoneNumber"/>
+        <DataProperty IRI="#producer"/>
+        <DataProperty IRI="#rating"/>
+        <DataProperty IRI="#runningTime"/>
+        <DataProperty IRI="#title"/>
+        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
         <DataProperty IRI="#registrationDate"/>
         <DataProperty IRI="#releaseDate"/>
-        <DataProperty IRI="#runningTime"/>
         <DataProperty IRI="#streamDate"/>
-        <DataProperty IRI="#title"/>
         <DataProperty IRI="#uploadDate"/>
-        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
     </DisjointDataProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#length</IRI>
-        <Literal xml:lang="en">Stream or Streamble length in seconds</Literal>
+        <IRI>#feedbackRating</IRI>
+        <Literal xml:lang="en">A scaled integer experience rating for the user stream</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
