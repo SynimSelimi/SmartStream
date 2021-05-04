@@ -129,7 +129,7 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#isDisplayedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isPlayedIn"/>
+        <ObjectProperty IRI="#isPlayedBy"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#pays"/>
@@ -237,6 +237,9 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Anime_Series"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Autos_and_Vehicles"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Breaking_Bad"/>
     </Declaration>
     <Declaration>
@@ -246,10 +249,16 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Children_and_Family_Movies"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Classics"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Cobra_Kai"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Comedies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comedy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Crime_TV_Shows"/>
@@ -258,13 +267,43 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Documentaries"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Documentary"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Docuseries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drama"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dramas"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Education"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Film_and_Animation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Foreign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gaming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horror"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Horror_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Howto_and_Style"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Independent_Movies"/>
@@ -282,7 +321,25 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#LGBTQ_Movies"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Music"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Music_and_Musicals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#News_and_Politics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#People_and_Blogs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pets_and_Animals"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Reality_TV"/>
@@ -300,7 +357,22 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Science_and_Nature_TV"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Science_and_Technology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Short_Movies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shorts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shows"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sports"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sports_Movies"/>
@@ -336,7 +408,19 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Teen_TV_Shows"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Thrillers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trailers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Travel_and_Events"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Videoblogging"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#stream_1"/>
@@ -345,7 +429,16 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#user_1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Action/Adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anime/Animation"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Kids&apos;_TV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#creator"/>
@@ -467,6 +560,10 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Anime_Series"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Autos_and_Vehicles"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Episodic"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
     </ClassAssertion>
@@ -479,12 +576,20 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Children_and_Family_Movies"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Classics"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Episodic"/>
         <NamedIndividual IRI="#Cobra_Kai"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Comedies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Comedy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -496,7 +601,15 @@ Synim Selimi</Literal>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Documentary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Docuseries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Drama"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -504,7 +617,39 @@ Synim Selimi</Literal>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Education"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Entertainment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Film_and_Animation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Foreign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Gaming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Horror"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Horror_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Howto_and_Style"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -528,7 +673,31 @@ Synim Selimi</Literal>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Music_and_Musicals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#News_and_Politics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#People_and_Blogs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Pets_and_Animals"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -552,7 +721,27 @@ Synim Selimi</Literal>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Science_and_Technology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Short_Movies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Shorts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Sports"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -600,11 +789,39 @@ Synim Selimi</Literal>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Thrillers"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Trailers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Travel_and_Events"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Videoblogging"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Action/Adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Anime/Animation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Kids&apos;_TV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#classifiesAs"/>
@@ -646,6 +863,11 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#user_1"/>
         <NamedIndividual IRI="#stream_1"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#watches"/>
+        <NamedIndividual IRI="#user_1"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Action_and_Adventure"/>
@@ -675,6 +897,16 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Anime_Series"/>
         <Literal>Anime Series</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Autos_and_Vehicles"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Autos_and_Vehicles"/>
+        <Literal>Autos  and  Vehicles</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#country"/>
@@ -728,6 +960,16 @@ Synim Selimi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Classics"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Classics"/>
+        <Literal>Classics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Comedies"/>
         <Literal>Netflix</Literal>
     </DataPropertyAssertion>
@@ -735,6 +977,16 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Comedies"/>
         <Literal>Comedies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Comedy"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Comedy"/>
+        <Literal>Comedy</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -758,6 +1010,16 @@ Synim Selimi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Documentary"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Documentary"/>
+        <Literal>Documentary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Docuseries"/>
         <Literal>Netflix</Literal>
     </DataPropertyAssertion>
@@ -765,6 +1027,16 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Docuseries"/>
         <Literal>Docuseries</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Drama"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Drama"/>
+        <Literal>Drama</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -778,6 +1050,76 @@ Synim Selimi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Education"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Education"/>
+        <Literal>Education</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Entertainment"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Entertainment"/>
+        <Literal>Entertainment</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Family"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Family"/>
+        <Literal>Family</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Film_and_Animation"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Film_and_Animation"/>
+        <Literal>Film  and  Animation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Foreign"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Foreign"/>
+        <Literal>Foreign</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Gaming"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Gaming"/>
+        <Literal>Gaming</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Horror"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Horror"/>
+        <Literal>Horror</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Horror_Movies"/>
         <Literal>Netflix</Literal>
     </DataPropertyAssertion>
@@ -785,6 +1127,16 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Horror_Movies"/>
         <Literal>Horror Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Howto_and_Style"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Howto_and_Style"/>
+        <Literal>Howto  and  Style</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -838,6 +1190,26 @@ Synim Selimi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Movies"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Movies"/>
+        <Literal>Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Music"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Music"/>
+        <Literal>Music</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Music_and_Musicals"/>
         <Literal>Netflix</Literal>
     </DataPropertyAssertion>
@@ -845,6 +1217,46 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Music_and_Musicals"/>
         <Literal>Music  and  Musicals</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#News_and_Politics"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#News_and_Politics"/>
+        <Literal>News  and  Politics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
+        <Literal>Nonprofits  and  Activism</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#People_and_Blogs"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#People_and_Blogs"/>
+        <Literal>People  and  Blogs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Pets_and_Animals"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Pets_and_Animals"/>
+        <Literal>Pets  and  Animals</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -898,6 +1310,46 @@ Synim Selimi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Science_and_Technology"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Science_and_Technology"/>
+        <Literal>Science  and  Technology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Short_Movies"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Short_Movies"/>
+        <Literal>Short Movies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Shorts"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Shorts"/>
+        <Literal>Shorts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Shows"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Shows"/>
+        <Literal>Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
         <Literal>Netflix</Literal>
     </DataPropertyAssertion>
@@ -905,6 +1357,16 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Spanish_Language_TV_Shows"/>
         <Literal>Spanish-Language TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Sports"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Sports"/>
+        <Literal>Sports</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -1018,6 +1480,16 @@ Synim Selimi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Thriller"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Thriller"/>
+        <Literal>Thriller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Thrillers"/>
         <Literal>Netflix</Literal>
     </DataPropertyAssertion>
@@ -1028,6 +1500,56 @@ Synim Selimi</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Trailers"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Trailers"/>
+        <Literal>Trailers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Travel_and_Events"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Travel_and_Events"/>
+        <Literal>Travel  and  Events</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Videoblogging"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Videoblogging"/>
+        <Literal>Videoblogging</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Action/Adventure"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Action/Adventure"/>
+        <Literal>Action/Adventure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Anime/Animation"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Anime/Animation"/>
+        <Literal>Anime/Animation</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Kids&apos;_TV"/>
         <Literal>Netflix</Literal>
     </DataPropertyAssertion>
@@ -1035,6 +1557,16 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Kids&apos;_TV"/>
         <Literal>Kids&apos; TV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#industry"/>
+        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
+        <Literal>Youtube</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
+        <Literal>Sci-Fi/Fantasy</Literal>
     </DataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#belongsTo"/>
@@ -1069,7 +1601,7 @@ Synim Selimi</Literal>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#isPlayedIn"/>
+        <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1097,7 +1629,7 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#isDisplayedIn"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isPlayedIn"/>
+        <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#plays"/>
     </InverseObjectProperties>
     <ObjectPropertyDomain>
@@ -1128,7 +1660,7 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isPlayedIn"/>
+        <ObjectProperty IRI="#isPlayedBy"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -1172,6 +1704,13 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#watches"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#watches"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#plays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#allows"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
@@ -1193,7 +1732,7 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isPlayedIn"/>
+        <ObjectProperty IRI="#isPlayedBy"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -1214,7 +1753,13 @@ Synim Selimi</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#watches"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDisplayedIn"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#allows"/>
@@ -1626,583 +2171,6 @@ Synim Selimi</Literal>
         <IRI>#runningTime</IRI>
         <Literal xml:lang="en">Stream or Streamble running time length in seconds</Literal>
     </AnnotationAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Film_and_Animation"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Film_and_Animation"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Film_and_Animation"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Film_and_Animation"/>
-        <Literal>Film  and  Animation</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Autos_and_Vehicles"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Autos_and_Vehicles"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Autos_and_Vehicles"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Autos_and_Vehicles"/>
-        <Literal>Autos  and  Vehicles</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Music"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Music"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Music"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Music"/>
-        <Literal>Music</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Pets_and_Animals"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Pets_and_Animals"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Pets_and_Animals"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Pets_and_Animals"/>
-        <Literal>Pets  and  Animals</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Sports"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Sports"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Sports"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Sports"/>
-        <Literal>Sports</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Short_Movies"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Short_Movies"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Short_Movies"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Short_Movies"/>
-        <Literal>Short Movies</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Travel_and_Events"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Travel_and_Events"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Travel_and_Events"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Travel_and_Events"/>
-        <Literal>Travel  and  Events</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Gaming"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Gaming"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Gaming"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Gaming"/>
-        <Literal>Gaming</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Videoblogging"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Videoblogging"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Videoblogging"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Videoblogging"/>
-        <Literal>Videoblogging</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#People_and_Blogs"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#People_and_Blogs"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#People_and_Blogs"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#People_and_Blogs"/>
-        <Literal>People  and  Blogs</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Comedy"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Comedy"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Comedy"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Comedy"/>
-        <Literal>Comedy</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Entertainment"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Entertainment"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Entertainment"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Entertainment"/>
-        <Literal>Entertainment</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#News_and_Politics"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#News_and_Politics"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#News_and_Politics"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#News_and_Politics"/>
-        <Literal>News  and  Politics</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Howto_and_Style"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Howto_and_Style"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Howto_and_Style"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Howto_and_Style"/>
-        <Literal>Howto  and  Style</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Education"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Education"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Education"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Education"/>
-        <Literal>Education</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Science_and_Technology"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Science_and_Technology"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Science_and_Technology"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Science_and_Technology"/>
-        <Literal>Science  and  Technology</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Nonprofits_and_Activism"/>
-        <Literal>Nonprofits  and  Activism</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Movies"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Movies"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Movies"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Movies"/>
-        <Literal>Movies</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Anime/Animation"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Anime/Animation"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Anime/Animation"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Anime/Animation"/>
-        <Literal>Anime/Animation</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Action/Adventure"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Action/Adventure"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Action/Adventure"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Action/Adventure"/>
-        <Literal>Action/Adventure</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Classics"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Classics"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Classics"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Classics"/>
-        <Literal>Classics</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Comedy"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Comedy"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Comedy"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Comedy"/>
-        <Literal>Comedy</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Documentary"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Documentary"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Documentary"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Documentary"/>
-        <Literal>Documentary</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Drama"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Drama"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Drama"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Drama"/>
-        <Literal>Drama</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Family"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Family"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Family"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Family"/>
-        <Literal>Family</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Foreign"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Foreign"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Foreign"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Foreign"/>
-        <Literal>Foreign</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Horror"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Horror"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Horror"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Horror"/>
-        <Literal>Horror</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
-        <Literal>Sci-Fi/Fantasy</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Thriller"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Thriller"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Thriller"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Thriller"/>
-        <Literal>Thriller</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Shorts"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Shorts"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Shorts"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Shorts"/>
-        <Literal>Shorts</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Shows"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Shows"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Shows"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Shows"/>
-        <Literal>Shows</Literal>
-    </DataPropertyAssertion>
-
-    <Declaration>
-        <NamedIndividual IRI="#Trailers"/>
-    </Declaration>
-    <ClassAssertion>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <NamedIndividual IRI="#Trailers"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#industry"/>
-        <NamedIndividual IRI="#Trailers"/>
-        <Literal>Youtube</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#title"/>
-        <NamedIndividual IRI="#Trailers"/>
-        <Literal>Trailers</Literal>
-    </DataPropertyAssertion>
-
 </Ontology>
 
 
