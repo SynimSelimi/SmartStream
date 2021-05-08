@@ -71,6 +71,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="#OtherIndustry"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Owner"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PaidSubscription"/>
     </Declaration>
     <Declaration>
@@ -143,7 +146,13 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#creates"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#deletes"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#displays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#edits"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#follows"/>
@@ -662,6 +671,13 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Editor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#edits"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#EditorPlan"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
     </SubClassOf>
@@ -724,6 +740,31 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="#Industry"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Owner"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Owner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Owner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#deletes"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Owner"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#edits"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PaidSubscription"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
     </SubClassOf>
@@ -781,6 +822,13 @@ The definitions include concepts and ideas applicable across many streaming indu
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#creates"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
@@ -961,6 +1009,7 @@ The definitions include concepts and ideas applicable across many streaming indu
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Editor"/>
+        <Class IRI="#Owner"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
     </DisjointClasses>
@@ -2283,8 +2332,16 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#deletes"/>
+        <ObjectProperty IRI="#interactsWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#displays"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#edits"/>
+        <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#giveAccess"/>
@@ -2424,11 +2481,19 @@ The definitions include concepts and ideas applicable across many streaming indu
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#creates"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deletes"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#displays"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#edits"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#follows"/>
@@ -2511,7 +2576,15 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#deletes"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#displays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#edits"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -2597,6 +2670,13 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#isUsedIn"/>
         <ObjectProperty IRI="#pays"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#creates"/>
+        <ObjectProperty IRI="#deletes"/>
+        <ObjectProperty IRI="#edits"/>
+        <ObjectProperty IRI="#plays"/>
+        <ObjectProperty IRI="#watches"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#isPaidOnce"/>
