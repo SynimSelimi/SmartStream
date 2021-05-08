@@ -149,7 +149,13 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#follows"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#giveAccess"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#giveAccessTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#giveAccessToType"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#grants"/>
@@ -162,6 +168,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAccessedThrough"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isDisplayedIn"/>
@@ -284,9 +293,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#uploadDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Action_and_Adventure"/>
     </Declaration>
     <Declaration>
@@ -407,7 +413,13 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#NetflixService"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Netflix_Crime_TV_Shows_Access"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netflix_TV_Dramas_Access"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#News_and_Politics"/>
@@ -791,6 +803,20 @@ The definitions include concepts and ideas applicable across many streaming indu
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#giveAccessTo"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#giveAccessToType"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#grants"/>
@@ -1035,6 +1061,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Family"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Film_Industry"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#VideoIndustry"/>
         <NamedIndividual IRI="#Film_Industry"/>
     </ClassAssertion>
@@ -1095,6 +1125,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Music_Industry"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Music_Industry"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Music_and_Musicals"/>
     </ClassAssertion>
@@ -1108,7 +1142,15 @@ The definitions include concepts and ideas applicable across many streaming indu
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Netflix_Crime_TV_Shows_Access"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Netflix_TV_Dramas_Access"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -1279,6 +1321,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#mp4Format"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        <NamedIndividual IRI="#stream_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer"/>
         <NamedIndividual IRI="#user_1"/>
     </ClassAssertion>
@@ -1393,6 +1439,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Netflix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <NamedIndividual IRI="#Netflix_Crime_TV_Shows_Access"/>
+        <NamedIndividual IRI="#Crime_TV_Shows"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessTo"/>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
@@ -1401,6 +1452,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#giveAccessTo"/>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
         <NamedIndividual IRI="#Cobra_Kai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <NamedIndividual IRI="#Netflix_TV_Dramas_Access"/>
+        <NamedIndividual IRI="#TV_Dramas"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -2231,8 +2287,16 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#giveAccessTo"/>
+        <ObjectProperty IRI="#giveAccess"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <ObjectProperty IRI="#giveAccess"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <ObjectProperty IRI="#giveAccess"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#grants"/>
@@ -2245,6 +2309,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isA"/>
         <ObjectProperty IRI="#isA"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAccessedThrough"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isDisplayedIn"/>
@@ -2309,6 +2377,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isDisplayedIn"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#giveAccess"/>
+        <ObjectProperty IRI="#isAccessedThrough"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#grants"/>
         <ObjectProperty IRI="#isGrantedBy"/>
     </InverseObjectProperties>
@@ -2335,7 +2407,13 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#giveAccessTo"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#giveAccessToType"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#grants"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isAccessedThrough"/>
     </AsymmetricObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#offers"/>
@@ -2441,6 +2519,14 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#grants"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
     </ObjectPropertyRange>
@@ -2498,11 +2584,12 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#contains"/>
         <ObjectProperty IRI="#displays"/>
         <ObjectProperty IRI="#follows"/>
-        <ObjectProperty IRI="#giveAccessTo"/>
+        <ObjectProperty IRI="#giveAccess"/>
         <ObjectProperty IRI="#grants"/>
         <ObjectProperty IRI="#hasFormat"/>
         <ObjectProperty IRI="#interactsWith"/>
         <ObjectProperty IRI="#isA"/>
+        <ObjectProperty IRI="#isAccessedThrough"/>
         <ObjectProperty IRI="#isDisplayedIn"/>
         <ObjectProperty IRI="#isGrantedBy"/>
         <ObjectProperty IRI="#isPaidBy"/>
@@ -2619,10 +2706,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#uploadDate"/>
         <DataProperty IRI="#date"/>
     </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-    </SubDataPropertyOf>
     <FunctionalDataProperty>
         <DataProperty IRI="#email"/>
     </FunctionalDataProperty>
@@ -2733,10 +2816,6 @@ The definitions include concepts and ideas applicable across many streaming indu
     <DataPropertyDomain>
         <DataProperty IRI="#uploadDate"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#address"/>
@@ -2838,10 +2917,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#uploadDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
     <DisjointDataProperties>
         <DataProperty IRI="#address"/>
         <DataProperty IRI="#cost"/>
@@ -2864,7 +2939,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#review"/>
         <DataProperty IRI="#runningTime"/>
         <DataProperty IRI="#title"/>
-        <DataProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#type"/>
     </DisjointDataProperties>
     <DisjointDataProperties>
         <DataProperty IRI="#registrationDate"/>
