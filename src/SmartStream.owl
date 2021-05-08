@@ -39,6 +39,9 @@ Synim Selimi</Literal>
         <Class IRI="#ConsumerPlan"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CreateAccess"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CreatorPlan"/>
     </Declaration>
     <Declaration>
@@ -48,13 +51,13 @@ Synim Selimi</Literal>
         <Class IRI="#Editor"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EditorPlan"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Episodic"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FreeSubscription"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HybridPlan"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Industry"/>
@@ -69,16 +72,22 @@ Synim Selimi</Literal>
         <Class IRI="#PaidSubscription"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ReadAccess"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Service"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Standalone"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#StreambleFormat"/>
+        <Class IRI="#StreamableFormat"/>
     </Declaration>
     <Declaration>
         <Class IRI="#VideoIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WriteAccess"/>
     </Declaration>
     <Declaration>
         <Class IRI="#YearlySubscription"/>
@@ -117,9 +126,6 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#allows"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#belongsTo"/>
     </Declaration>
     <Declaration>
@@ -138,10 +144,16 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#displays"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#enables"/>
+        <ObjectProperty IRI="#follows"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#giveAccessTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#grants"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFormat"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interactsWith"/>
@@ -153,13 +165,28 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#isDisplayedIn"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isGrantedBy"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isOfferedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPaidBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPaidOnce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPaidRegularly"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isPartOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isPlayedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isUsedIn"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#offers"/>
@@ -175,9 +202,6 @@ Synim Selimi</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#plays"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#provides"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#watches"/>
@@ -381,6 +405,9 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#NetflixService"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#News_and_Politics"/>
     </Declaration>
     <Declaration>
@@ -498,10 +525,22 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#YoutubeService"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#movFormat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mp3Format"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mp4Format"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#stream_1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#user_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wavFormat"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Action/Adventure"/>
@@ -558,8 +597,40 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ConsumerPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="#ReadAccess"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsumerPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPaidOnce"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreateAccess"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CreatorPlan"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatorPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="#CreateAccess"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CreatorPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPaidOnce"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DailySubscription"/>
@@ -570,6 +641,38 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EditorPlan"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EditorPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="#CreateAccess"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EditorPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="#ReadAccess"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EditorPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="#WriteAccess"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EditorPlan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPaidOnce"/>
+            <Class IRI="#Editor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Episodic"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </SubClassOf>
@@ -578,8 +681,11 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#HybridPlan"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+        <Class IRI="#FreeSubscription"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="#ReadAccess"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Industry"/>
@@ -599,6 +705,10 @@ Synim Selimi</Literal>
     <SubClassOf>
         <Class IRI="#PaidSubscription"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReadAccess"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Service"/>
@@ -625,8 +735,19 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#StreamableFormat"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isUsedIn"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#VideoIndustry"/>
         <Class IRI="#Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WriteAccess"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#YearlySubscription"/>
@@ -641,11 +762,128 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isGrantedBy"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isGrantedBy"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPaidBy"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#displays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPlayedBy"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#classifiesAs"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#isDisplayedIn"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasFormat"/>
+            <Class IRI="#StreamableFormat"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#contains"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#grants"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPaidBy"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#paysOnce"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#paysRegularly"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#follows"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#plays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#watches"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#AudioIndustry"/>
@@ -661,7 +899,7 @@ Synim Selimi</Literal>
         <Class IRI="#Company"/>
         <Class IRI="#Industry"/>
         <Class IRI="#Service"/>
-        <Class IRI="#StreambleFormat"/>
+        <Class IRI="#StreamableFormat"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Nothing"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
@@ -674,7 +912,12 @@ Synim Selimi</Literal>
     <DisjointClasses>
         <Class IRI="#ConsumerPlan"/>
         <Class IRI="#CreatorPlan"/>
-        <Class IRI="#HybridPlan"/>
+        <Class IRI="#EditorPlan"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CreateAccess"/>
+        <Class IRI="#ReadAccess"/>
+        <Class IRI="#WriteAccess"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#DailySubscription"/>
@@ -855,6 +1098,10 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#NetflixService"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#News_and_Politics"/>
     </ClassAssertion>
@@ -1009,6 +1256,22 @@ Synim Selimi</Literal>
     <ClassAssertion>
         <Class IRI="#Service"/>
         <NamedIndividual IRI="#YoutubeService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamableFormat"/>
+        <NamedIndividual IRI="#movFormat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamableFormat"/>
+        <NamedIndividual IRI="#mp3Format"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamableFormat"/>
+        <NamedIndividual IRI="#mp4Format"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreamableFormat"/>
+        <NamedIndividual IRI="#wavFormat"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -1498,6 +1761,11 @@ Synim Selimi</Literal>
         <Literal>Music  and  Musicals</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#NetflixService"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#News_and_Politics"/>
         <Literal>Youtube</Literal>
@@ -1818,6 +2086,46 @@ Synim Selimi</Literal>
         <Literal>Videoblogging</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#extension"/>
+        <NamedIndividual IRI="#movFormat"/>
+        <Literal>mov</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#format"/>
+        <NamedIndividual IRI="#movFormat"/>
+        <Literal>mov Video</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#extension"/>
+        <NamedIndividual IRI="#mp3Format"/>
+        <Literal>mp3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#format"/>
+        <NamedIndividual IRI="#mp3Format"/>
+        <Literal>MP3 Audio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#extension"/>
+        <NamedIndividual IRI="#mp4Format"/>
+        <Literal>mp4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#format"/>
+        <NamedIndividual IRI="#mp4Format"/>
+        <Literal>MP4 Video</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#extension"/>
+        <NamedIndividual IRI="#wavFormat"/>
+        <Literal>wav</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#format"/>
+        <NamedIndividual IRI="#wavFormat"/>
+        <Literal>Wave Audio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Action/Adventure"/>
         <Literal>Youtube</Literal>
@@ -1862,10 +2170,6 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#classifiesAs"/>
     </EquivalentObjectProperties>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#allows"/>
-        <ObjectProperty IRI="#enables"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#belongsTo"/>
         <ObjectProperty IRI="#isA"/>
     </SubObjectPropertyOf>
@@ -1890,6 +2194,18 @@ Synim Selimi</Literal>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#grants"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFormat"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#isA"/>
         <ObjectProperty IRI="#isA"/>
     </SubObjectPropertyOf>
@@ -1908,7 +2224,19 @@ Synim Selimi</Literal>
         </ObjectInverseOf>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPaidOnce"/>
+        <ObjectProperty IRI="#isPaidBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPaidRegularly"/>
+        <ObjectProperty IRI="#isPaidBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#isPlayedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isUsedIn"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1928,10 +2256,6 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#provides"/>
-        <ObjectProperty IRI="#enables"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#watches"/>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
@@ -1948,6 +2272,22 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#isDisplayedIn"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#grants"/>
+        <ObjectProperty IRI="#isGrantedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFormat"/>
+        <ObjectProperty IRI="#isUsedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isPaidOnce"/>
+        <ObjectProperty IRI="#paysOnce"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isPaidRegularly"/>
+        <ObjectProperty IRI="#paysRegularly"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#plays"/>
     </InverseObjectProperties>
@@ -1957,17 +2297,6 @@ Synim Selimi</Literal>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#offers"/>
     </TransitiveObjectProperty>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#allows"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#allows"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#allows"/>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
-        </ObjectExactCardinality>
-    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#contains"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -1985,12 +2314,38 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#grants"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isA"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isDisplayedIn"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isGrantedBy"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPaidOnce"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPaidRegularly"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isPlayedBy"/>
@@ -2023,17 +2378,6 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#provides"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#provides"/>
-        <ObjectExactCardinality cardinality="1">
-            <ObjectProperty IRI="#provides"/>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
-        </ObjectExactCardinality>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#watches"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
@@ -2044,10 +2388,6 @@ Synim Selimi</Literal>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#allows"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
-    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#contains"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
@@ -2065,12 +2405,38 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#grants"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isA"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isDisplayedIn"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isGrantedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPaidOnce"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPaidRegularly"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isPlayedBy"/>
@@ -2089,10 +2455,6 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#provides"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#watches"/>
         <ObjectIntersectionOf>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
@@ -2103,21 +2465,26 @@ Synim Selimi</Literal>
         </ObjectIntersectionOf>
     </ObjectPropertyRange>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#allows"/>
-        <ObjectProperty IRI="#provides"/>
-    </DisjointObjectProperties>
-    <DisjointObjectProperties>
         <ObjectProperty IRI="#consistsOf"/>
         <ObjectProperty IRI="#contains"/>
         <ObjectProperty IRI="#displays"/>
-        <ObjectProperty IRI="#enables"/>
         <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <ObjectProperty IRI="#grants"/>
+        <ObjectProperty IRI="#hasFormat"/>
         <ObjectProperty IRI="#interactsWith"/>
         <ObjectProperty IRI="#isA"/>
         <ObjectProperty IRI="#isDisplayedIn"/>
+        <ObjectProperty IRI="#isGrantedBy"/>
+        <ObjectProperty IRI="#isPaidBy"/>
         <ObjectProperty IRI="#isPartOf"/>
         <ObjectProperty IRI="#isPlayedBy"/>
+        <ObjectProperty IRI="#isUsedIn"/>
         <ObjectProperty IRI="#pays"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#isPaidOnce"/>
+        <ObjectProperty IRI="#isPaidRegularly"/>
     </DisjointObjectProperties>
     <EquivalentDataProperties>
         <DataProperty IRI="#director"/>
@@ -2272,7 +2639,7 @@ Synim Selimi</Literal>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#extension"/>
-        <Class IRI="#StreambleFormat"/>
+        <Class IRI="#StreamableFormat"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#feedbackRating"/>
@@ -2284,7 +2651,7 @@ Synim Selimi</Literal>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#format"/>
-        <Class IRI="#StreambleFormat"/>
+        <Class IRI="#StreamableFormat"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#industry"/>
@@ -2478,18 +2845,128 @@ Synim Selimi</Literal>
     </DisjointDataProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AudioIndustry</IRI>
+        <Literal>Industry that encompasses all audio-related companies and organizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Collection</IRI>
+        <Literal>Streamable content which is distributed in collections</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Company</IRI>
+        <Literal>Companies and other organizations that offer streamable services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ConsumerPlan</IRI>
+        <Literal>Grants only ReadAccess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CreateAccess</IRI>
+        <Literal>Allows User to create Streamable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CreatorPlan</IRI>
+        <Literal>Grants CreateAccess and WriteAccess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#EditorPlan</IRI>
+        <Literal>Grants all Permissions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Episodic</IRI>
+        <Literal>Streamable content which is distributed in episodic manner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Industry</IRI>
+        <Literal>Different type of industries that might be offering streamable services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OtherIndustry</IRI>
+        <Literal>Industry that encompasses all other companies and organizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ReadAccess</IRI>
+        <Literal>Allows user to stream Streamable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Service</IRI>
+        <Literal>Streamable services that are offered by companies through plans and subscription</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Standalone</IRI>
+        <Literal>Streamable content which is distributed as standalone content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StreamableFormat</IRI>
+        <Literal>Format type and extensions of streamable data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VideoIndustry</IRI>
+        <Literal>Industry that encompasses all video-related companies and organizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WriteAccess</IRI>
+        <Literal>Allows user to edit, update and delete Streamable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#feedbackRating</IRI>
         <Literal xml:lang="en">A scaled integer experience rating for the user stream</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#rating</IRI>
-        <Literal>Stream or Streamble rating</Literal>
+        <Literal>Stream or Streamable rating</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#runningTime</IRI>
-        <Literal xml:lang="en">Stream or Streamble running time length in seconds</Literal>
+        <Literal xml:lang="en">Stream or Streamable running time length in seconds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower</IRI>
+        <Literal>User who follows another User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission</IRI>
+        <Literal>Permission scopes that grant different access rights to User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan</IRI>
+        <Literal>Paid plan which grants User Permissions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream</IRI>
+        <Literal>A User data stream session</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable</IRI>
+        <Literal>Any Streamable content of any format</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType</IRI>
+        <Literal>Types and classifiers of Streamables</Literal>
     </AnnotationAssertion>
 </Ontology>
 
