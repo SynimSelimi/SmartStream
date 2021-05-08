@@ -1,0 +1,28 @@
+Company isPartOf Industry
+Company offers Service
+Follower follows User
+Follower owl:EquivalentClassOf User
+Industry consistsOf Company
+Permission isGrantedBy Plan or Subscription
+Permission givesAccessTo some Streamable
+Permiession givesAccessToType some StreamableType
+Plan grants some Permission
+Plan isPaidBy some User
+Service offers some Plan or Subscription
+Stream displays Streamable
+Stream isPlayedBy some User
+Streamable classifiesAs some StreamableType
+Streamable hasFormat exactly 1 StreamableFormat
+Streamable isDisplayedIn only Stream
+StreamableFormat isUsedIn Streamable
+StreamableType contains some Streamable
+Subscription grants Permission
+Subscription isPaidBy some User
+User paysOnce some Plan
+User paysRegularly some Subscription
+User follows some User
+User plays some Stream
+User watches some Streamable
+Creator creates some Streamable
+Editors edits some Streamable
+Owner creates and edits and deletes some Streamable

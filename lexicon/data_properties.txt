@@ -1,0 +1,26 @@
+owl:topDataProperty
+	address
+	cost
+	country
+	date
+		registrationDate
+		releaseDate
+		streamDate
+		uploadDate
+	description
+	director
+	distributor
+	duration
+	email
+	extension
+	feedbackRating
+	firstName
+	format
+	industry
+	lastName
+	phoneNumber
+	producer
+	rating
+	review
+	runningTime
+	title
