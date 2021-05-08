@@ -20,7 +20,9 @@ Synim Selimi</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="en">SmartStream is an ontology, which represents streaming service systems and their inherent details.</Literal>
+        <Literal xml:lang="en">SmartStream is an ontology, which forms a knowledge base for building coherent and cross-compatible streaming service systems.
+
+The definitions include concepts and ideas applicable across many streaming industries of various types, including music, video, film, etc.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
@@ -579,6 +581,13 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Collection"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#consistsOf"/>
+            <Class IRI="#Standalone"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Company"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#offers"/>
@@ -1026,7 +1035,7 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Family"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Industry"/>
+        <Class IRI="#VideoIndustry"/>
         <NamedIndividual IRI="#Film_Industry"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1082,7 +1091,7 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Music"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Industry"/>
+        <Class IRI="#AudioIndustry"/>
         <NamedIndividual IRI="#Music_Industry"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1270,6 +1279,14 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#mp4Format"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer"/>
+        <NamedIndividual IRI="#user_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        <NamedIndividual IRI="#user_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#StreamableFormat"/>
         <NamedIndividual IRI="#wavFormat"/>
     </ClassAssertion>
@@ -1295,6 +1312,11 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#StreamingService"/>
         <NamedIndividual IRI="#YoutubeService"/>
     </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Basic_Subscription"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Basic_Subscription"/>
@@ -1371,6 +1393,16 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Netflix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+        <NamedIndividual IRI="#Cobra_Kai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Premium_Subscription"/>
         <NamedIndividual IRI="#Netflix"/>
@@ -1394,6 +1426,11 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#displays"/>
         <NamedIndividual IRI="#stream_1"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paysRegularly"/>
+        <NamedIndividual IRI="#user_1"/>
+        <NamedIndividual IRI="#Basic_Subscription"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#plays"/>
@@ -2294,6 +2331,12 @@ Synim Selimi</Literal>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#follows"/>
     </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#giveAccessTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#grants"/>
+    </AsymmetricObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#offers"/>
     </TransitiveObjectProperty>
@@ -2312,13 +2355,6 @@ Synim Selimi</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#follows"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#giveAccessTo"/>
-        <ObjectUnionOf>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
-        </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#grants"/>
@@ -2403,13 +2439,6 @@ Synim Selimi</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#follows"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#giveAccessTo"/>
-        <ObjectUnionOf>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#grants"/>
@@ -2875,6 +2904,16 @@ Synim Selimi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DailySubscription</IRI>
+        <Literal>Subscriptions that are paid daily</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Editor</IRI>
+        <Literal>User of any streamable service who intends to monitor and edit Streamable content</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#EditorPlan</IRI>
         <Literal>Grants all Permissions</Literal>
     </AnnotationAssertion>
@@ -2885,13 +2924,28 @@ Synim Selimi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FreeSubscription</IRI>
+        <Literal>Free-tier subscriptions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Industry</IRI>
         <Literal>Different type of industries that might be offering streamable services</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MonthlySubscription</IRI>
+        <Literal>Subscriptions that are paid monthly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#OtherIndustry</IRI>
         <Literal>Industry that encompasses all other companies and organizations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PaidSubscription</IRI>
+        <Literal>Paid-tier subscriptions</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2925,6 +2979,11 @@ Synim Selimi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#YearlySubscription</IRI>
+        <Literal>Subscriptions that are paid yearly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#feedbackRating</IRI>
         <Literal xml:lang="en">A scaled integer experience rating for the user stream</Literal>
     </AnnotationAssertion>
@@ -2937,6 +2996,16 @@ Synim Selimi</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#runningTime</IRI>
         <Literal xml:lang="en">Stream or Streamable running time length in seconds</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer</IRI>
+        <Literal>User of any streamable service who intends to watch Streamables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator</IRI>
+        <Literal>User of any streamable service who intends to create Streamables</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2967,6 +3036,16 @@ Synim Selimi</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType</IRI>
         <Literal>Types and classifiers of Streamables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription</IRI>
+        <Literal>Subscriptions which are reassessed periodically</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User</IRI>
+        <Literal>User of any streamable service</Literal>
     </AnnotationAssertion>
 </Ontology>
 
