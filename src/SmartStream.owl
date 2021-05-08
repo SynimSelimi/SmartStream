@@ -27,6 +27,15 @@ Synim Selimi</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.0</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="#AudioIndustry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Company"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ConsumerPlan"/>
     </Declaration>
     <Declaration>
@@ -42,25 +51,34 @@ Synim Selimi</Literal>
         <Class IRI="#Episodic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Filmic"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FreeSubscription"/>
     </Declaration>
     <Declaration>
         <Class IRI="#HybridPlan"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Industry"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#MonthlySubscription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PaidSubscription"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standalone"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#StreambleFormat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Volume"/>
+        <Class IRI="#VideoIndustry"/>
     </Declaration>
     <Declaration>
         <Class IRI="#YearlySubscription"/>
@@ -108,6 +126,12 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#classifiesAs"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#consistsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#creates"/>
     </Declaration>
     <Declaration>
@@ -129,7 +153,16 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#isDisplayedIn"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isOfferedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#isPlayedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offers"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#pays"/>
@@ -240,6 +273,9 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Autos_and_Vehicles"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Basic_Subscription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Breaking_Bad"/>
     </Declaration>
     <Declaration>
@@ -285,7 +321,13 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Entertainment"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Entertainment_Industry"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Film_Industry"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Film_and_Animation"/>
@@ -327,7 +369,16 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Music"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Music_Industry"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Music_and_Musicals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netflix"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NetflixService"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#News_and_Politics"/>
@@ -336,10 +387,16 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Nonprofits_and_Activism"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#One_Year_Plan"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#People_and_Blogs"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pets_and_Animals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Premium_Subscription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Reality_TV"/>
@@ -378,10 +435,22 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Sports_Movies"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Spotify"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpotifyService"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Stand_Up_Comedy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Standard_Subscription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StreamingService"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TV_Action_and_Adventure"/>
@@ -421,6 +490,12 @@ Synim Selimi</Literal>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Videoblogging"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Youtube"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YoutubeService"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#stream_1"/>
@@ -457,6 +532,28 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="#AudioIndustry"/>
+        <Class IRI="#Industry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collection"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Service"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Industry"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ConsumerPlan"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
     </SubClassOf>
@@ -477,10 +574,6 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Filmic"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#FreeSubscription"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
     </SubClassOf>
@@ -489,16 +582,51 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Industry"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#consistsOf"/>
+            <Class IRI="#Company"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MonthlySubscription"/>
         <Class IRI="#PaidSubscription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherIndustry"/>
+        <Class IRI="#Industry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PaidSubscription"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Volume"/>
+        <Class IRI="#Service"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#offers"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#offers"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isOfferedBy"/>
+            <Class IRI="#Company"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standalone"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoIndustry"/>
+        <Class IRI="#Industry"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#YearlySubscription"/>
@@ -520,6 +648,30 @@ Synim Selimi</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <DisjointClasses>
+        <Class IRI="#AudioIndustry"/>
+        <Class IRI="#OtherIndustry"/>
+        <Class IRI="#VideoIndustry"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collection"/>
+        <Class IRI="#Episodic"/>
+        <Class IRI="#Standalone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Company"/>
+        <Class IRI="#Industry"/>
+        <Class IRI="#Service"/>
+        <Class IRI="#StreambleFormat"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Nothing"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#ConsumerPlan"/>
         <Class IRI="#CreatorPlan"/>
         <Class IRI="#HybridPlan"/>
@@ -535,24 +687,8 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Episodic"/>
-        <Class IRI="#Filmic"/>
-        <Class IRI="#Volume"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#FreeSubscription"/>
         <Class IRI="#PaidSubscription"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#StreambleFormat"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Nothing"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </DisjointClasses>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -569,6 +705,10 @@ Synim Selimi</Literal>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Autos_and_Vehicles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonthlySubscription"/>
+        <NamedIndividual IRI="#Basic_Subscription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Episodic"/>
@@ -631,8 +771,20 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Entertainment"/>
     </ClassAssertion>
     <ClassAssertion>
+        <ObjectUnionOf>
+            <Class IRI="#AudioIndustry"/>
+            <Class IRI="#OtherIndustry"/>
+            <Class IRI="#VideoIndustry"/>
+        </ObjectUnionOf>
+        <NamedIndividual IRI="#Entertainment_Industry"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Film_Industry"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -687,8 +839,20 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Music"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Industry"/>
+        <NamedIndividual IRI="#Music_Industry"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Music_and_Musicals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#NetflixService"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -699,12 +863,20 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Nonprofits_and_Activism"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ConsumerPlan"/>
+        <NamedIndividual IRI="#One_Year_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#People_and_Blogs"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Pets_and_Animals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonthlySubscription"/>
+        <NamedIndividual IRI="#Premium_Subscription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -755,12 +927,28 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Sports_Movies"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#Spotify"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#SpotifyService"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Stand_Up_Comedy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonthlySubscription"/>
+        <NamedIndividual IRI="#Standard_Subscription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#StreamingService"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -815,6 +1003,14 @@ Synim Selimi</Literal>
         <NamedIndividual IRI="#Videoblogging"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Company"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#YoutubeService"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Action/Adventure"/>
     </ClassAssertion>
@@ -830,6 +1026,17 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
     </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#NetflixService"/>
+        <NamedIndividual IRI="#SpotifyService"/>
+        <NamedIndividual IRI="#StreamingService"/>
+        <NamedIndividual IRI="#YoutubeService"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Basic_Subscription"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#classifiesAs"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
@@ -859,6 +1066,66 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#belongsTo"/>
         <NamedIndividual IRI="#Cobra_Kai"/>
         <NamedIndividual IRI="#TV_Dramas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistsOf"/>
+        <NamedIndividual IRI="#Entertainment_Industry"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistsOf"/>
+        <NamedIndividual IRI="#Entertainment_Industry"/>
+        <NamedIndividual IRI="#Spotify"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistsOf"/>
+        <NamedIndividual IRI="#Entertainment_Industry"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistsOf"/>
+        <NamedIndividual IRI="#Film_Industry"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistsOf"/>
+        <NamedIndividual IRI="#Film_Industry"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistsOf"/>
+        <NamedIndividual IRI="#Music_Industry"/>
+        <NamedIndividual IRI="#Spotify"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#consistsOf"/>
+        <NamedIndividual IRI="#Music_Industry"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#NetflixService"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Premium_Subscription"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#SpotifyService"/>
+        <NamedIndividual IRI="#Spotify"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Standard_Subscription"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#YoutubeService"/>
+        <NamedIndividual IRI="#Youtube"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#displays"/>
@@ -914,6 +1181,11 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Autos_and_Vehicles"/>
         <Literal>Autos  and  Vehicles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Basic_Subscription"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#country"/>
@@ -1266,6 +1538,11 @@ Synim Selimi</Literal>
         <Literal>Pets  and  Animals</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Premium_Subscription"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Reality_TV"/>
         <Literal>Netflix</Literal>
@@ -1404,6 +1681,11 @@ Synim Selimi</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
         <Literal>Stand-Up Comedy  and  Talk Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Standard_Subscription"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -1592,6 +1874,14 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#isA"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#consistsOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#creates"/>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
@@ -1608,7 +1898,21 @@ Synim Selimi</Literal>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <ObjectInverseOf>
+            <ObjectProperty IRI="#offers"/>
+        </ObjectInverseOf>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#isPlayedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#offers"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1632,6 +1936,14 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#consistsOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#isA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#displays"/>
         <ObjectProperty IRI="#isDisplayedIn"/>
     </InverseObjectProperties>
@@ -1639,6 +1951,12 @@ Synim Selimi</Literal>
         <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#plays"/>
     </InverseObjectProperties>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#follows"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#offers"/>
+    </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#allows"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
@@ -1649,6 +1967,10 @@ Synim Selimi</Literal>
             <ObjectProperty IRI="#allows"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
         </ObjectExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#creates"/>
@@ -1727,6 +2049,10 @@ Synim Selimi</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#creates"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyRange>
@@ -1779,6 +2105,19 @@ Synim Selimi</Literal>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#allows"/>
         <ObjectProperty IRI="#provides"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#consistsOf"/>
+        <ObjectProperty IRI="#contains"/>
+        <ObjectProperty IRI="#displays"/>
+        <ObjectProperty IRI="#enables"/>
+        <ObjectProperty IRI="#follows"/>
+        <ObjectProperty IRI="#interactsWith"/>
+        <ObjectProperty IRI="#isA"/>
+        <ObjectProperty IRI="#isDisplayedIn"/>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#isPlayedBy"/>
+        <ObjectProperty IRI="#pays"/>
     </DisjointObjectProperties>
     <EquivalentDataProperties>
         <DataProperty IRI="#director"/>
@@ -1889,15 +2228,23 @@ Synim Selimi</Literal>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <FunctionalDataProperty>
+        <DataProperty IRI="#email"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#firstName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#lastName"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#phoneNumber"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
         <DataProperty IRI="#title"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#address"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#cost"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#country"/>
