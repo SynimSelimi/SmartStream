@@ -1,0 +1,12 @@
+# Find all streamables which users are allowed to watch when they pay
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX smst: <http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#>
+SELECT ?subscription ?movie
+WHERE { 
+	?subscription smst:grants <http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#Netflix_ReadAccess> .
+	<http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#Netflix_ReadAccess> smst:giveAccessTo ?movie
+} LIMIT 100
