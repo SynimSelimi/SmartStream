@@ -3201,6 +3201,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User</IRI>
         <Literal>User of any streamable service</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Owner</IRI>
+        <Literal>Owner of service provider with all access permissions</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
