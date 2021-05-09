@@ -974,11 +974,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="#VideoIndustry"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Collection"/>
-        <Class IRI="#Episodic"/>
-        <Class IRI="#Standalone"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#Company"/>
         <Class IRI="#Industry"/>
         <Class IRI="#Service"/>
@@ -1012,6 +1007,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="#Owner"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Creator"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Episodic"/>
+        <Class IRI="#Standalone"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#FreeSubscription"/>
@@ -2476,6 +2475,25 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#offers"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consistsOf"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Collection"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#consistsOf"/>
+                    <Class IRI="#Standalone"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Industry"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#consistsOf"/>
+                    <Class IRI="#Company"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#contains"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
     </ObjectPropertyDomain>
@@ -2567,6 +2585,13 @@ The definitions include concepts and ideas applicable across many streaming indu
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consistsOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#Collection"/>
+            <Class IRI="#Company"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#contains"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
