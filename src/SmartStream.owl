@@ -930,6 +930,13 @@ The definitions include concepts and ideas applicable across many streaming indu
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isOfferedBy"/>
+            <Class IRI="#Service"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#isPaidBy"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
         </ObjectSomeValuesFrom>
@@ -2549,6 +2556,31 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offers"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Company"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#offers"/>
+                    <Class IRI="#Service"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#Service"/>
+                <ObjectUnionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#offers"/>
+                        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#offers"/>
+                        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectUnionOf>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#paysOnce"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
@@ -2654,6 +2686,14 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isPlayedBy"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offers"/>
+        <ObjectUnionOf>
+            <Class IRI="#Service"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#paysOnce"/>
@@ -3123,6 +3163,11 @@ The definitions include concepts and ideas applicable across many streaming indu
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Owner</IRI>
+        <Literal>Owner of service provider with all access permissions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#PaidSubscription</IRI>
         <Literal>Paid-tier subscriptions</Literal>
     </AnnotationAssertion>
@@ -3225,11 +3270,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User</IRI>
         <Literal>User of any streamable service</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Owner</IRI>
-        <Literal>Owner of service provider with all access permissions</Literal>
     </AnnotationAssertion>
 </Ontology>
 
