@@ -296,6 +296,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#streamDate"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#streamableTitle"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#title"/>
     </Declaration>
     <Declaration>
@@ -2747,10 +2750,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isPaidOnce"/>
         <ObjectProperty IRI="#isPaidRegularly"/>
     </DisjointObjectProperties>
-    <EquivalentDataProperties>
-        <DataProperty IRI="#director"/>
-        <DataProperty IRI="#producer"/>
-    </EquivalentDataProperties>
     <SubDataPropertyOf>
         <DataProperty IRI="#address"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -2842,6 +2841,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <SubDataPropertyOf>
         <DataProperty IRI="#streamDate"/>
         <DataProperty IRI="#date"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#streamableTitle"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#title"/>
@@ -2953,6 +2956,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <DataPropertyDomain>
         <DataProperty IRI="#streamDate"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#streamableTitle"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#title"/>
@@ -3055,6 +3062,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#streamableTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#title"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -3083,13 +3094,8 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#rating"/>
         <DataProperty IRI="#review"/>
         <DataProperty IRI="#runningTime"/>
+        <DataProperty IRI="#streamableTitle"/>
         <DataProperty IRI="#title"/>
-    </DisjointDataProperties>
-    <DisjointDataProperties>
-        <DataProperty IRI="#registrationDate"/>
-        <DataProperty IRI="#releaseDate"/>
-        <DataProperty IRI="#streamDate"/>
-        <DataProperty IRI="#uploadDate"/>
     </DisjointDataProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
