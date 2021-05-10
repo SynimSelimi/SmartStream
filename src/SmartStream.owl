@@ -1606,12 +1606,27 @@ The definitions include concepts and ideas applicable across many streaming indu
     <DataPropertyAssertion>
         <DataProperty IRI="#description"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
-        <Literal>A high school chemistry teacher dying of cancer teams with a former student to secure his family&apos;s f...</Literal>
+        <Literal>A high school chemistry teacher dying of cancer teams with a former student to secure his family&apos;s future by manufacturing and selling crystal meth.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>Vince Gilligan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distributor"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>Sony Pictures Television</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#duration"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
-        <Literal>5 Seasons</Literal>
+        <Literal>5 seasons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#producer"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>Vince Gilligan, Mark Johnson, Michelle MacLaren</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#rating"/>
@@ -1621,7 +1636,12 @@ The definitions include concepts and ideas applicable across many streaming indu
     <DataPropertyAssertion>
         <DataProperty IRI="#releaseDate"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-01T00:00:00</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2013-01-20T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
+        <Literal>Breaking Bad</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#uploadDate"/>
@@ -2747,10 +2767,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isPaidOnce"/>
         <ObjectProperty IRI="#isPaidRegularly"/>
     </DisjointObjectProperties>
-    <EquivalentDataProperties>
-        <DataProperty IRI="#director"/>
-        <DataProperty IRI="#producer"/>
-    </EquivalentDataProperties>
     <SubDataPropertyOf>
         <DataProperty IRI="#address"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
@@ -3068,12 +3084,7 @@ The definitions include concepts and ideas applicable across many streaming indu
     <DisjointDataProperties>
         <DataProperty IRI="#address"/>
         <DataProperty IRI="#cost"/>
-        <DataProperty IRI="#country"/>
         <DataProperty IRI="#date"/>
-        <DataProperty IRI="#description"/>
-        <DataProperty IRI="#director"/>
-        <DataProperty IRI="#distributor"/>
-        <DataProperty IRI="#duration"/>
         <DataProperty IRI="#email"/>
         <DataProperty IRI="#extension"/>
         <DataProperty IRI="#feedbackRating"/>
@@ -3086,7 +3097,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#rating"/>
         <DataProperty IRI="#review"/>
         <DataProperty IRI="#runningTime"/>
-        <DataProperty IRI="#title"/>
     </DisjointDataProperties>
     <DisjointDataProperties>
         <DataProperty IRI="#registrationDate"/>
