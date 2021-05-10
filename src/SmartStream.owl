@@ -497,6 +497,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify_Acoustic_Music"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Spotify_Content"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Spotify_Dance_Music"/>
     </Declaration>
     <Declaration>
@@ -1302,6 +1305,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Content"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -2968,11 +2975,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#runningTime"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#runningTime"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#streamDate"/>
