@@ -317,6 +317,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Basic_Subscription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Breaking_Bad"/>
     </Declaration>
     <Declaration>
@@ -348,6 +351,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Docuseries"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Drama"/>
@@ -396,6 +402,15 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#International_TV_Shows"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Rogan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Rogan_Break_My_Heart_Stream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Rogan_Breaking_Bad_Stream"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Korean_TV_Shows"/>
@@ -537,6 +552,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Travel_and_Events"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Two_Year_Plan"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Videoblogging"/>
@@ -1044,6 +1062,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Basic_Subscription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Standalone"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Episodic"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
     </ClassAssertion>
@@ -1086,6 +1108,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Docuseries"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Owner"/>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -1158,6 +1184,18 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#International_TV_Shows"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Consumer"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        <NamedIndividual IRI="#James_Rogan_Break_My_Heart_Stream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        <NamedIndividual IRI="#James_Rogan_Breaking_Bad_Stream"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -1352,6 +1390,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Travel_and_Events"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ConsumerPlan"/>
+        <NamedIndividual IRI="#Two_Year_Plan"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Videoblogging"/>
     </ClassAssertion>
@@ -1425,6 +1467,21 @@ The definitions include concepts and ideas applicable across many streaming indu
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#classifiesAs"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#classifiesAs"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <NamedIndividual IRI="#Music_and_Musicals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDisplayedIn"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <NamedIndividual IRI="#James_Rogan_Break_My_Heart_Stream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#classifiesAs"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
         <NamedIndividual IRI="#Crime_TV_Shows"/>
     </ObjectPropertyAssertion>
@@ -1477,6 +1534,21 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#consistsOf"/>
         <NamedIndividual IRI="#Film_Industry"/>
         <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#paysRegularly"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <NamedIndividual IRI="#Basic_Subscription"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#plays"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <NamedIndividual IRI="#James_Rogan_Breaking_Bad_Stream"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#watches"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <NamedIndividual IRI="#Breaking_Bad"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#consistsOf"/>
@@ -1597,6 +1669,56 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#cost"/>
         <NamedIndividual IRI="#Basic_Subscription"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>United Kingdom</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>Taken from her second studio album &apos;Future Nostalgia&apos; released in 2020, which featured the hit singles &apos;Don&apos;t Start Now&apos;, &apos;Physical&apos;, &apos;Break My Heart&apos;, &apos;Hallucinate&apos; &amp; &apos;Levitating&apos;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>Henry Scholfield</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#duration"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>3 minutes 41 seconds</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#producer"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>Andrew Watt, The Monsters &amp; Strangerz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rating"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>TV-G</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">3.68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>Break My Heart</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#country"/>
@@ -1739,6 +1861,37 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Literal>Docuseries</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
+        <Literal>852 Ralph Drive
+Mentor, OH 44060</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
+        <Literal>donmc@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#firstName"/>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
+        <Literal>Don</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lastName"/>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
+        <Literal>McCarthy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phoneNumber"/>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#phoneNumber">440-266-9435</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registrationDate"/>
+        <NamedIndividual IRI="#Don_Mccarthy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-03-03T18:05:05</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Drama"/>
         <Literal>Youtube</Literal>
@@ -1877,6 +2030,37 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#International_TV_Shows"/>
         <Literal>International TV Shows</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#address"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <Literal>1536 Barnes Avenue
+Cincinnati, OH 45236</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#email"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#email">jamesrogan@example.com</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#firstName"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <Literal>James</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#lastName"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <Literal>Rogan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#phoneNumber"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#phoneNumber">513-745-3817</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#registrationDate"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-13T13:21:07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -2099,6 +2283,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Literal>Sports Movies</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#SpotifyService"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#Stand_Up_Comedy"/>
         <Literal>Netflix</Literal>
@@ -2252,6 +2441,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Videoblogging"/>
         <Literal>Videoblogging</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#YoutubeService"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#extension"/>
@@ -2960,11 +3154,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#runningTime"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#runningTime"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#streamDate"/>
@@ -3098,12 +3291,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#review"/>
         <DataProperty IRI="#runningTime"/>
     </DisjointDataProperties>
-    <DisjointDataProperties>
-        <DataProperty IRI="#registrationDate"/>
-        <DataProperty IRI="#releaseDate"/>
-        <DataProperty IRI="#streamDate"/>
-        <DataProperty IRI="#uploadDate"/>
-    </DisjointDataProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AudioIndustry</IRI>
@@ -3218,6 +3405,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#YearlySubscription</IRI>
         <Literal>Subscriptions that are paid yearly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cost</IRI>
+        <Literal>Represents cost of a plan or subscription</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
