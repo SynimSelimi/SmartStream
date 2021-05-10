@@ -296,6 +296,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#streamDate"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#streamableTitle"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#title"/>
     </Declaration>
     <Declaration>
@@ -516,6 +519,19 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spotify_CreateAccess"/>
+        <NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_Content"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_Dance_Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_Instrumental_Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stand_Up_Comedy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spotify_ReadAccess"/>
@@ -1372,6 +1388,22 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="#WriteAccess"/>
         <NamedIndividual IRI="#Spotify_WriteAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Content"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Dance_Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Instrumental_Music"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -3125,6 +3157,10 @@ Cincinnati, OH 45236</Literal>
         <DataProperty IRI="#date"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#streamableTitle"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#title"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -3235,6 +3271,10 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#streamableTitle"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#title"/>
         <ObjectUnionOf>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
@@ -3338,6 +3378,10 @@ Cincinnati, OH 45236</Literal>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#streamableTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#title"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -3361,6 +3405,8 @@ Cincinnati, OH 45236</Literal>
         <DataProperty IRI="#rating"/>
         <DataProperty IRI="#review"/>
         <DataProperty IRI="#runningTime"/>
+        <DataProperty IRI="#streamableTitle"/>
+        <DataProperty IRI="#title"/>
     </DisjointDataProperties>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
