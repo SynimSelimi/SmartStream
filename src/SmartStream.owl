@@ -2956,7 +2956,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#title"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#uploadDate"/>
