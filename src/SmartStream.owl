@@ -314,9 +314,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Autos_and_Vehicles"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Basic_Subscription"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Break_My_Heart"/>
     </Declaration>
     <Declaration>
@@ -437,13 +434,28 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#NetflixService"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Netflix_Basic_Subscription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netflix_CreateAccess"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Netflix_Crime_TV_Shows_Access"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Netflix_Standard_Subscription"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Netflix_TV_Dramas_Access"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Netflix_WriteAccess"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#News_and_Politics"/>
@@ -459,9 +471,6 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Pets_and_Animals"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Premium_Subscription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Reality_TV"/>
@@ -506,13 +515,19 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#SpotifyService"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Spotify_CreateAccess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_ReadAccess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_WriteAccess"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Stand_Up_Comedy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Standard_Subscription"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#StreamingService"/>
@@ -564,6 +579,15 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#YoutubeService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Youtube_CreateAccess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Youtube_WriteAccess"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#movFormat"/>
@@ -1058,10 +1082,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Autos_and_Vehicles"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MonthlySubscription"/>
-        <NamedIndividual IRI="#Basic_Subscription"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Standalone"/>
         <NamedIndividual IRI="#Break_My_Heart"/>
     </ClassAssertion>
@@ -1234,16 +1254,36 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#NetflixService"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MonthlySubscription"/>
+        <NamedIndividual IRI="#Netflix_Basic_Subscription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CreateAccess"/>
+        <NamedIndividual IRI="#Netflix_CreateAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ReadAccess"/>
         <NamedIndividual IRI="#Netflix_Crime_TV_Shows_Access"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MonthlySubscription"/>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#ReadAccess"/>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MonthlySubscription"/>
+        <NamedIndividual IRI="#Netflix_Standard_Subscription"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ReadAccess"/>
         <NamedIndividual IRI="#Netflix_TV_Dramas_Access"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WriteAccess"/>
+        <NamedIndividual IRI="#Netflix_WriteAccess"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -1264,10 +1304,6 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Pets_and_Animals"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MonthlySubscription"/>
-        <NamedIndividual IRI="#Premium_Subscription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -1326,16 +1362,24 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#SpotifyService"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#CreateAccess"/>
+        <NamedIndividual IRI="#Spotify_CreateAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Spotify_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WriteAccess"/>
+        <NamedIndividual IRI="#Spotify_WriteAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Stand_Up_Comedy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MonthlySubscription"/>
-        <NamedIndividual IRI="#Standard_Subscription"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Service"/>
@@ -1406,6 +1450,18 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#YoutubeService"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#CreateAccess"/>
+        <NamedIndividual IRI="#Youtube_CreateAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WriteAccess"/>
+        <NamedIndividual IRI="#Youtube_WriteAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#StreamableFormat"/>
         <NamedIndividual IRI="#movFormat"/>
     </ClassAssertion>
@@ -1455,16 +1511,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#StreamingService"/>
         <NamedIndividual IRI="#YoutubeService"/>
     </DifferentIndividuals>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#grants"/>
-        <NamedIndividual IRI="#Basic_Subscription"/>
-        <NamedIndividual IRI="#Netflix_ReadAccess"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Basic_Subscription"/>
-        <NamedIndividual IRI="#Netflix"/>
-    </ObjectPropertyAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Netflix_Basic_Subscription"/>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
+        <NamedIndividual IRI="#Netflix_Standard_Subscription"/>
+    </DifferentIndividuals>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#classifiesAs"/>
         <NamedIndividual IRI="#Break_My_Heart"/>
@@ -1536,11 +1587,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Youtube"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#paysRegularly"/>
-        <NamedIndividual IRI="#James_Rogan"/>
-        <NamedIndividual IRI="#Basic_Subscription"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#plays"/>
         <NamedIndividual IRI="#James_Rogan"/>
         <NamedIndividual IRI="#James_Rogan_Breaking_Bad_Stream"/>
@@ -1566,9 +1612,39 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Netflix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Netflix_Basic_Subscription"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Netflix_Basic_Subscription"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessToType"/>
         <NamedIndividual IRI="#Netflix_Crime_TV_Shows_Access"/>
         <NamedIndividual IRI="#Crime_TV_Shows"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
+        <NamedIndividual IRI="#Netflix_CreateAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
+        <NamedIndividual IRI="#Netflix_WriteAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
+        <NamedIndividual IRI="#Netflix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessTo"/>
@@ -1581,24 +1657,24 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Cobra_Kai"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Netflix_Standard_Subscription"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Netflix_Standard_Subscription"/>
+        <NamedIndividual IRI="#Netflix"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessToType"/>
         <NamedIndividual IRI="#Netflix_TV_Dramas_Access"/>
         <NamedIndividual IRI="#TV_Dramas"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Premium_Subscription"/>
-        <NamedIndividual IRI="#Netflix"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#SpotifyService"/>
         <NamedIndividual IRI="#Spotify"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Standard_Subscription"/>
-        <NamedIndividual IRI="#Netflix"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -1609,11 +1685,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#displays"/>
         <NamedIndividual IRI="#stream_1"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#paysRegularly"/>
-        <NamedIndividual IRI="#user_1"/>
-        <NamedIndividual IRI="#Basic_Subscription"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#plays"/>
@@ -1664,11 +1735,6 @@ The definitions include concepts and ideas applicable across many streaming indu
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Autos_and_Vehicles"/>
         <Literal>Autos  and  Vehicles</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#cost"/>
-        <NamedIndividual IRI="#Basic_Subscription"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#country"/>
@@ -2118,6 +2184,21 @@ Cincinnati, OH 45236</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Netflix_Basic_Subscription"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">7.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Netflix_Premium_Subscription"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#cost"/>
+        <NamedIndividual IRI="#Netflix_Standard_Subscription"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.99</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
         <NamedIndividual IRI="#News_and_Politics"/>
         <Literal>Youtube</Literal>
@@ -2156,11 +2237,6 @@ Cincinnati, OH 45236</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Pets_and_Animals"/>
         <Literal>Pets  and  Animals</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#cost"/>
-        <NamedIndividual IRI="#Premium_Subscription"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
@@ -2306,11 +2382,6 @@ Cincinnati, OH 45236</Literal>
         <DataProperty IRI="#title"/>
         <NamedIndividual IRI="#Stand_Up_Comedy_and_Talk_Shows"/>
         <Literal>Stand-Up Comedy  and  Talk Shows</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#cost"/>
-        <NamedIndividual IRI="#Standard_Subscription"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">9.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#industry"/>
