@@ -494,6 +494,15 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#SpotifyService"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_Dance_Music"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_Instrumental_Music"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Stand_Up_Comedy"/>
     </Declaration>
     <Declaration>
@@ -1289,6 +1298,18 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="#Service"/>
         <NamedIndividual IRI="#SpotifyService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Dance_Music"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        <NamedIndividual IRI="#Spotify_Instrumental_Music"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
