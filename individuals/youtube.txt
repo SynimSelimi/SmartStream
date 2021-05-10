@@ -1,0 +1,3949 @@
+
+    <Declaration>
+        <NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+		<NamedIndividual IRI="#Gaming"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+        <Literal>Apex_Legends___Stories_from_the_Outlands____The_Endorsement_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+        <Literal>While running her own modding shop, Ramya Parekh (aka Rampart) built her rep in underground gauntlet...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+        <Literal>Apex Legends</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Apex_Legends___Stories_from_the_Outlands____The_Endorsement_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T17:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+        <Literal>I_left_youtube_for_a_month_and_THIS_is_what_happened_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+        <Literal>I left youtube for a month and this is what happenedMY COFFEE COMPANY: https://twitter.com/TOTMCoffe...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+        <Literal>jacksepticeye</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#I_left_youtube_for_a_month_and_THIS_is_what_happened_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T16:34:06</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+        <Literal>Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+        <Literal>Transforming The LaBrant Family's empty white room into a dramatic custom home movie theater. A port...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+        <Literal>Mr. Kate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Ultimate_DIY_Home_Movie_Theater_for_The_LaBrant_Family_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T15:10:05</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+        <Literal>I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+        <Literal>Subscribe To My Channel - https://www.youtube.com/subscription_center?add_user=professorlive?sub_con...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+        <Literal>Professor Live</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#I_Haven_t_Been_Honest_About_My_Injury___Here_s_THE_TRUTH"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T20:00:04</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+        <Literal>OUR_FIRST_FAMILY_INTRO__</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+        <Literal>Hi babygirls!  Thank you so much for watching and for supporting! I LOVE YOU!! ❤️❤️label printer fro...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+        <Literal>Les Do Makeup</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#OUR_FIRST_FAMILY_INTRO__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:17:41</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+		<NamedIndividual IRI="#Education"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+        <Literal>CGP_Grey_was_WRONG</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+        <Literal>‣ What Was TEKOI: https://www.youtube.com/watch?v=PCeMCwxayp0‣ TEKOI Commentary: https://www.youtube...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+        <Literal>CGP Grey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#CGP_Grey_was_WRONG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T17:15:11</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+        <Literal>SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+        <Literal>Since I was little, i've had these goals for my self to give back to my parents. Both of them have m...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+        <Literal>Louie's Life</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#SURPRISING_MY_DAD_WITH_HIS_DREAM_TRUCK_____Louie_s_Life"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T22:26:59</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+        <Literal>Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+        <Literal>Vengo De Nada - Ovi x Natanael Cano x Aleman x Big SotoDirected by Lalo The GiantExecutive Producer ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+        <Literal>Rancho Humilde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Ovi_x_Natanael_Cano_x_Aleman_x_Big_Soto___Vengo_De_Nada__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T23:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+        <Literal>i_don_t_know_what_im_doing_anymore</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+        <Literal>ssend love to my sponsor; for a super Limited Time! Go to https://NordVPN.com/casey or use code CASE...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+        <Literal>CaseyNeistat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#i_don_t_know_what_im_doing_anymore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T20:24:34</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+        <Literal>Try_Not_To_Laugh_Challenge_51</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+        <Literal>You know what time it is— time to try not to laugh!This video was shot with a very limited crew. All...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+        <Literal>Smosh Pit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Try_Not_To_Laugh_Challenge_51"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T17:00:31</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+		<NamedIndividual IRI="#Gaming"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+        <Literal>Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+        <Literal>“Prepare. Execute. Vanish”Sam Fisher joins Team Rainbow! Watch the Operation Shadow Legacy full reve...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+        <Literal>Ubisoft North America</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Rainbow_Six_Siege__Operation_Shadow_Legacy_Reveal_Trailer___Ubisoft__NA_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T17:13:53</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+        <Literal>Lil_Yachty__and__Future___Pardon_Me__Official_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+        <Literal>Watch the official video for Lil Yachty and Future's Pardon Me.Get Lil Yachty's new album Lil Boat 3 h...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+        <Literal>LilYachtyVEVO</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Lil_Yachty__and__Future___Pardon_Me__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T19:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+        <Literal>When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+        <Literal>500,000 Likes and I’ll drop a Part 6!Thanks for Watching! Like, Subscribe and Comment! 1M Likes and ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+        <Literal>Kyle Exum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#When_Our_Generation_Gets_Old_and_Hears_a_Throwback_Song_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T22:33:48</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+        <Literal>Ten_Minutes_with_Tyler_Cameron___Q_and_A</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+        <Literal>Come hang out me with me for 10 minutes where Brown Bear tries to ask some tough questions and I giv...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+        <Literal>Tyler Cameron</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Ten_Minutes_with_Tyler_Cameron___Q_and_A"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T22:00:05</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+        <Literal>Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+        <Literal>Kylie Jenner dissed over cameo in Cardi B and Megan The Stallion WAP music video and she reacts. Plu...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+        <Literal>HollywoodLife</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Kylie_Jenner_Reacts_To__WAP__Music_Video_Backlash"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T18:41:19</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+        <Literal>Our_Farm_Got_Destroyed_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+        <Literal>Wind storm, rain, and lots of destruction; well, this storm definitely came unexpected. Thousands of...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+        <Literal>Cole The Cornstar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Our_Farm_Got_Destroyed_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T23:00:06</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Time_to_Talk__"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Time_to_Talk__"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Time_to_Talk__"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Time_to_Talk__"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Time_to_Talk__"/>
+        <Literal>Time_to_Talk__</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Time_to_Talk__"/>
+        <Literal>I talked about some claims about me that was hurtful, some harrassment and also touched on clickbait...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Time_to_Talk__"/>
+        <Literal>Chloe Ting</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Time_to_Talk__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Time_to_Talk__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T12:04:40</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+        <Literal>ITZY__Not_Shy__M_V_TEASER</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+        <Literal>ITZY Not Shy M/V[ITZY Official] https://www.youtube.com/c/ITZYhttps://www.instagram.com/itzy.all.in....</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+        <Literal>JYP Entertainment</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#ITZY__Not_Shy__M_V_TEASER"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T15:00:13</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+		<NamedIndividual IRI="#Science_and_Technology"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+        <Literal>Shark_Attack_Test__Human_Blood_vs__Fish_Blood</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+        <Literal>I personally got in the water and tested if Sharks had a preference of human blood vs. fish blood. G...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+        <Literal>Mark Rober</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Shark_Attack_Test__Human_Blood_vs__Fish_Blood"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T16:00:11</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+		<NamedIndividual IRI="#Film_and_Animation"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+        <Literal>Honest_Trailers___Avatar__The_Last_Airbender</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+        <Literal>►►Subscribe to ScreenJunkies!► https://fandom.link/SJSubscribeOur Next Fandom 5 Trivia Show is on Av...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+        <Literal>Screen Junkies</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Honest_Trailers___Avatar__The_Last_Airbender"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T17:03:59</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+        <Literal>EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+        <Literal>THIS WAS SO MUCH FUNWe played hide n seek for the first time in my new house!! But there was a prett...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+        <Literal>FaZe Rug</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#EXTREME_Game_of_Hide_and_Seek_in_my_NEW_HOUSE__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T17:09:53</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+        <Literal>Doing_Doja_Cat_s_Makeup__</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+        <Literal>HI SISTERS! Today’s video is a collaboration with the legendary Doja Cat! I give her a full makeup t...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+        <Literal>James Charles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Doing_Doja_Cat_s_Makeup__"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T19:00:09</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#THIS_IS_THE_END_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#THIS_IS_THE_END_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#THIS_IS_THE_END_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#THIS_IS_THE_END_"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#THIS_IS_THE_END_"/>
+        <Literal>THIS_IS_THE_END_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#THIS_IS_THE_END_"/>
+        <Literal>THIS IS THE END.Shop on The RealReal and get $25 off your first order http://bit.ly/TRRacefamGET SIL...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#THIS_IS_THE_END_"/>
+        <Literal>The ACE Family</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#THIS_IS_THE_END_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#THIS_IS_THE_END_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T23:00:02</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+        <Literal>Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+        <Literal>They live for destruction, but now one must destroy the other!Thanks to Miller Lite for sponsoring t...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+        <Literal>DEATH BATTLE!</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Beerus_VS_Sailor_Galaxia__Dragon_Ball_VS_Sailor_Moon____DEATH_BATTLE_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T17:00:11</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+        <Literal>iann_dior___Prospect_ft__Lil_Baby__Official_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+        <Literal>Official Video for Prospect by iann dior ft. Lil BabyStream/Download Prospect I'm Gone: https://iann...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+        <Literal>iann dior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#iann_dior___Prospect_ft__Lil_Baby__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T19:15:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+		<NamedIndividual IRI="#Film_and_Animation"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+        <Literal>Don_t_be_a_Tourist</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+        <Literal>This one is for all you full time travelersEMAIL FOR INQUIRIES:Tabbesk@gmail.com TIKTOK:https://www....</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+        <Literal>Tabbes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Don_t_be_a_Tourist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T21:28:49</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+        <Literal>Juice_WRLD__and__The_Weeknd___Smile__Official_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+        <Literal>Juice WRLD and The Weeknd - Smile is available now: https://smarturl.it/999XOGet the official V lone S...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+        <Literal>Juice WRLD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T18:03:12</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Being_replaced_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Being_replaced_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Being_replaced_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Being_replaced_"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Being_replaced_"/>
+        <Literal>Being_replaced_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Being_replaced_"/>
+        <Literal>Just wanted to let you guys how I really feel TO WIN AIRPODS OR $500 GIFT BOX:1) SUBSCRIBE2) FOLLOW ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Being_replaced_"/>
+        <Literal>Gabrielle Moses</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Being_replaced_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Being_replaced_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T20:56:04</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+		<NamedIndividual IRI="#Education"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+        <Literal>TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+        <Literal>The first 1000 people to click the link will get 2 months of Skillshare Premium for FREE https://skl...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+        <Literal>Eleanor Neale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#TAXI_CAB_SLAYER_KILLS__TO_KNOW_HOW_IT_FEELS_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T20:00:45</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+        <Literal>Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+        <Literal>Figured I'd hop on here and talk to you guys directly! Let me know what you think in the comments be...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+        <Literal>Cleetus2 McFarland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Here_s_Why_We_Do_Sponsored_Videos__What_Are_Your_Thoughts"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T22:41:31</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+		<NamedIndividual IRI="#Education"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+        <Literal>15_Friendliest_Sea_Creatures_Around_The_World</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+        <Literal>It’s easy to forget just how dangerous the ocean can be, given all the Disney-fication of the underw...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+        <Literal>Amerikano</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#15_Friendliest_Sea_Creatures_Around_The_World"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T16:00:07</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+		<NamedIndividual IRI="#News_and_Politics"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+        <Literal>Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+        <Literal>U.S. President Donald Trump was pulled from his briefing by Secret Service agents after a shooting o...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+        <Literal>CTV News</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Watch_Secret_Service_agents_pull_Trump_from_a_press_briefing_after_shooting_outside_the_White_House"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T22:29:23</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+		<NamedIndividual IRI="#News_and_Politics"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+        <Literal>Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+        <Literal>Hundreds of looters targeted businesses in the Mag Mile and River North areas late Sunday into early...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+        <Literal>WGN News</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Hundreds_of_looters_target_stores_downtown__across_Chicago_overnight__100_arrested"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T00:19:12</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+        <Literal>Addressing_RUMORS_About_Me_While_Testing_New_Makeup</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+        <Literal>Today I'm testing out ALL brand new makeup while addressing rumors about myself. Love you guys, reme...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+        <Literal>jeffreestar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Addressing_RUMORS_About_Me_While_Testing_New_Makeup"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T19:00:30</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+        <Literal>NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+        <Literal>Listen to ‘Top Shotta’: https://nlechoppa.lnk.to/topshottaMerch: https://warnerrecords.lnk.to/choppa...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+        <Literal>NLE CHOPPA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#NLE_Choppa___Top_Shotta_Flow__Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T16:00:48</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+        <Literal>I_Spent__1_000_000_On_Lottery_Tickets_and_WON</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+        <Literal>I didnt think i was going to win that much... looks like im buying an islandNew Merch - https://shop...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+        <Literal>MrBeast</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#I_Spent__1_000_000_On_Lottery_Tickets_and_WON"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-08T20:00:02</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+        <Literal>Megan_Thee_Stallion___Revlon_Makeup_Tutorial</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+        <Literal>Hey Hotties 🔥 Thought I’d share my hot girl hack to getting my cut-crease using all my @revlon good...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+        <Literal>Megan Thee Stallion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Megan_Thee_Stallion___Revlon_Makeup_Tutorial"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T16:07:25</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+        <Literal>My_dog_goes_swimming_for_the_first_time_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+        <Literal>Watch my dog to go swimming for the first time in a shark!Follow us on Instagram @sammythegolden247#...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+        <Literal>Sammy The Golden Retriever</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#My_dog_goes_swimming_for_the_first_time_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T21:30:14</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+        <Literal>Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+        <Literal>LeBron and the Lakers finally snapped their 3-game skid with an exciting win over the Nuggets last n...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+        <Literal>Skip and Shannon: UNDISPUTED</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Shannon_reacts_to_Kyle_Kuzma_s_game_winning_shot___I_m_concerned_about_the_Lakers___NBA___UNDISPUTED"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T16:21:47</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+        <Literal>Answering_Your_Assumptions_About_Us____Merrell_Twins</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+        <Literal>We answered your assumptions about us...Go to https://www.casetify.com/merrelltwins today to get 20-...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+        <Literal>merrelltwins</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Answering_Your_Assumptions_About_Us____Merrell_Twins"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T17:29:52</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+        <Literal>Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+        <Literal>In a random and wild sequence of events, Giannis Antetokounmpo got into it with Moritz Wagner. After...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+        <Literal>Bleacher Report</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Giannis_Gets_Ejected_After_Headbutting_Mo_Wagner"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T02:30:32</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+        <Literal>I_TOOK_A_PREGNANCY_TEST___</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+        <Literal>▷SUBSCRIBE FOR DAILY VLOGS: http://bit.ly/2lFIqnW▷ SHOP OUR CLOTHING LINE: http://www.yvbird.com▷ SH...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+        <Literal>ValeYas Vlogs</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#I_TOOK_A_PREGNANCY_TEST___"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T02:40:01</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+        <Literal>_____J_Y__Park__When_We_Disco__Duet_with_____M_V</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+        <Literal>MelOn http://kko.to/TWyXd7zYjSpotify https://spoti.fi/2FelHKZiTunes/Apple Music https://apple.co/30O...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+        <Literal>JYP Entertainment</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#_____J_Y__Park__When_We_Disco__Duet_with_____M_V"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T09:00:13</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+        <Literal>Tom_MacDonald___GRAVESTONES_ALBUM</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+        <Literal>NEW ALBUM Gravestones AVAILABLE THIS FRIDAY AUGUST 14th @ www.HangOverGang.com/storeAUTOGRAPHED ALBU...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+        <Literal>Tom MacDonald</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Tom_MacDonald___GRAVESTONES_ALBUM"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T15:58:26</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+        <Literal>TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+        <Literal>TRAIL BLAZERS at MAVERICKS | FULL GAME HIGHLIGHTS | August 11, 2020Damian Lillard matches a career-h...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+        <Literal>NBA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#TRAIL_BLAZERS_at_MAVERICKS___FULL_GAME_HIGHLIGHTS___August_11__2020"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T01:27:17</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+        <Literal>42_Dugg___Big_4_s__Official_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+        <Literal>From the album Young and Turnt 2 (Deluxe). Out now!Stream: https://empire.ffm.to/youngandturnt2_deluxe...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+        <Literal>42 dugg Music</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#42_Dugg___Big_4_s__Official_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T21:02:21</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+        <Literal>Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+        <Literal>CLASH official music video performed by DILJIT DOSANJH from his album G.O.A.T. Listen to the full al...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+        <Literal>Diljit Dosanjh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Diljit_Dosanjh__CLASH__Official__Music_Video___G_O_A_T_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T07:30:02</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+		<NamedIndividual IRI="#Film_and_Animation"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+        <Literal>Selena_Gomez___This_is_the_Year__Official_Premiere_Event_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+        <Literal>Get your tickets here: https://thisistheyear.film Join Selena and David who are reuniting after 8 ye...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+        <Literal>Selena Gomez</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Selena_Gomez___This_is_the_Year__Official_Premiere_Event_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T16:32:06</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+        <Literal>Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+        <Literal>Cardi B explained that husband Offset is friends with Travis Scott and that she has gone to Kris Jen...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+        <Literal>PeopleTV</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Cardi_B_Defends_Kylie_Jenner_In__WAP__Music_Video_As_Fans_Make_Petition_For_Her_Removal___PeopleTV"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T17:59:46</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+        <Literal>FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+        <Literal>Come with us as we move into our new home! It takes us a few days to get settled in, but we've got s...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+        <Literal>Ellie and Jared</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#FIRST_DAY_IN_THE_NEW_HOUSE__Ellie_and_Jared_Move_In_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T13:00:29</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+        <Literal>SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+        <Literal>Me and my best friend got a new summer job. Our manager fired us from our old job. So we bought an i...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+        <Literal>Dan and Riya</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#SUMMER_JOB___Me_And_My_Best_Friend_Got_An_Ice_Cream_Truck_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T18:02:05</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+        <Literal>Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+        <Literal>Kali Uchis and Rico Nasty, Aquí Yo Mando out now: https://smarturl.it/AquiYoMandoFollow Kali Uchis:Web...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+        <Literal>KALI UCHIS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Kali_Uchis__Rico_Nasty___Aqu__Yo_Mando__Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T14:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+		<NamedIndividual IRI="#News_and_Politics"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+        <Literal>Widespread_looting_reported_overnight_in_downtown_Chicago</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+        <Literal>Widespread looting reported overnight in downtown Chicago</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+        <Literal>WGN News</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Widespread_looting_reported_overnight_in_downtown_Chicago"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T10:13:25</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+        <Literal>Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+        <Literal>Lil Mosey - Top Gone (ft. Lunay)Listen: https://smarturl.it/TopGoneSpotify: https://smarturl.it/TopG...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+        <Literal>LilMoseyVEVO</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Lil_Mosey___Top_Gone__ft__Lunay___Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T16:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+        <Literal>Bonsai_Fish_Tank</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+        <Literal>I've been wanting to do aquaponics (growing vegetables on a fish tank) for my kitchen. I'm making a ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+        <Literal>JunsKitchen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Bonsai_Fish_Tank"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T11:08:04</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+        <Literal>ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+        <Literal>How To Cake It Yolanda Gampp shows how to make a delicious summer lemonade cake bursting with flavor...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+        <Literal>How To Cake It</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#ULTIMATE_Summer_Lemonade_Cake____How_To_Cake_It_with_Yolanda_Gampp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T12:00:07</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+        <Literal>Saved_by_the_Bell___Official_Teaser_2___Peacock</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+        <Literal>Saved by the Bell is back - to the MAX! Check out this exclusive look at the new series, coming soon...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+        <Literal>Peacock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Saved_by_the_Bell___Official_Teaser_2___Peacock"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T18:19:51</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+        <Literal>SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+        <Literal>Could NOT believe his reaction!▪ New videos all the time. Subscribe here! ▶ http://bit.ly/Sub2SuperM...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+        <Literal>SuperMega</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#SURPRISING_BEST_FRIEND_WITH_BUBBA_GUMP_SHRIMP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T23:58:36</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+		<NamedIndividual IRI="#News_and_Politics"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+        <Literal>The_global_coffee_crisis_is_coming</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+        <Literal>It's becoming harder and harder to grow. Become a Video Lab member! http://bit.ly/video-labSources a...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+        <Literal>Vox</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#The_global_coffee_crisis_is_coming"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T12:00:03</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+        <Literal>THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+        <Literal>IT'S FINALLY HERE OMG!!!!!!This is the official house tour of my brand new $10,000,000 home. I am so...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+        <Literal>FaZe Rug</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#THE_OFFICIAL_REVEAL_OF_MY_NEW__10_000_000_HOUSE___Full_Tour_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-08T18:00:14</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+        <Literal>My_Decaying_Mind_in_Quarantine</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+        <Literal>Check out Cafe Chaos on kickstarter, supplies are limit-ED (no theyre not)➤ https://www.kickstarter....</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+        <Literal>TheOdd1sOut</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#My_Decaying_Mind_in_Quarantine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-08T16:28:40</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+        <Literal>_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+        <Literal>Stephen A. Smith explains why LA Clippers SF Paul George is under more pressure than Portland Trail ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+        <Literal>ESPN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#_Don_t_mess_with_Dame_Dolla____Stephen_A__reacts_to_Lillard_s_beef_with_Paul_George___First_Take"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T15:25:12</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+		<NamedIndividual IRI="#Science_and_Technology"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+        <Literal>3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+        <Literal>What's it like using the Samsung Galaxy Note 20 Ultra? I switched to the Note 20 Ultra 3 days ago, a...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+        <Literal>The Tech Chap</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#3_DAYS_with_the_Samsung_Galaxy_Note_20_Ultra____The_Tech_Chap"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T18:28:55</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+        <Literal>Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+        <Literal>Welcome to the Chill Zone, where we chill and stuff. We're watching movie trailers with millions of ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+        <Literal>Dylan Is In Trouble</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Watching_Movie_Trailers____Then_Guessing_Their_Review_Scores"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T16:00:04</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+        <Literal>NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+        <Literal>NUGGETS at LAKERS | FULL GAME HIGHLIGHTS | August 10, 2020Kyle Kuzma (25 PTS) knocked down a 3PM fro...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+        <Literal>NBA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#NUGGETS_at_LAKERS___FULL_GAME_HIGHLIGHTS___August_10__2020"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T03:53:08</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+        <Literal>How_Does_He_Get_Away_With_This</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+        <Literal>🔥GET YOUR EXCLUSIVE BASKETBALL SHORTS NOW! https://dopelocker.net/collections/team-shorts-%F0%9F%94...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+        <Literal>JxmyHighroller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#How_Does_He_Get_Away_With_This"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T18:42:25</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+        <Literal>ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+        <Literal>Had the pleasure of learning from this queen named Kany Diabate. She was actually one of the choreog...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+        <Literal>Aliya Janell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#ALREADY___Black_Is_King___Aliya_Janell___Kany_Diabate_Choreography___Queens_N_Lettos"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T19:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+		<NamedIndividual IRI="#Gaming"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+        <Literal>FUT_21___Official_Trailer</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+        <Literal>Play with friends, customise your stadium, and team up with the FIFA 21 Ultimate Team Community. See...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+        <Literal>EA SPORTS FIFA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#FUT_21___Official_Trailer"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T15:00:08</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+        <Literal>Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+        <Literal>Uncle Roger finally meets egg fried rice lady, Hersha Patel. Will they get along? Does she actually ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+        <Literal>mrnigelng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Uncle_Roger_Meet_Egg_Fried_Rice_Lady___Hersha_Patel_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T14:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#robot_boyfriend"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#robot_boyfriend"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#robot_boyfriend"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#robot_boyfriend"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#robot_boyfriend"/>
+        <Literal>robot_boyfriend</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#robot_boyfriend"/>
+        <Literal>yep</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#robot_boyfriend"/>
+        <Literal>Lilypi2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#robot_boyfriend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#robot_boyfriend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T01:37:40</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+        <Literal>Exposing_My_Browsing_History_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+        <Literal>I delve into more of the weird internet history! Contains a paid promotion for Square Enix! Final Fa...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+        <Literal>AmazingPhil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Exposing_My_Browsing_History_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T18:07:26</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+        <Literal>Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+        <Literal>Check out Thrive Market today and choose a free gift, up to $22 value, when you join here: http://th...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+        <Literal>Binging with Babish</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Binging_with_Babish__Paunch_Burger_from_Parks__and__Rec"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T13:00:11</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#100k"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#100k"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#100k"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#100k"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#100k"/>
+        <Literal>100k</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#100k"/>
+        <Literal>thanks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#100k"/>
+        <Literal>Lilypi2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#100k"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#100k"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T03:06:21</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+		<NamedIndividual IRI="#Howto_and_Style"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+        <Literal>PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+        <Literal>Wait untill you guys see his reaction. Thank you guys so much for watching! Make sure to LIKE the vi...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+        <Literal>Alexa Rivera</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#PAINTING_OUR_FACES_ON_BRENT_S_NEW_HOUSE___REVENGE_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-08T20:45:05</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+        <Literal>Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+        <Literal>After Kyle Kuzma hit the game-winning shot for the Los Angeles Lakers, the crew discusses whether Ku...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+        <Literal>NBA on TNT</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Can_LeBron__AD_and_Kyle_Kuzma_Become_LA_s_New__Big_Three____NBA_on_TNT_Tuesday"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T04:30:02</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+		<NamedIndividual IRI="#News_and_Politics"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+        <Literal>Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+        <Literal>Seattle Police Chief Carmen Best plans to resign on Tuesday. The news comes on the same day the city...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+        <Literal>KING 5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Seattle_Police_Chief_Carmen_Best_will_resign_Tuesday"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T04:24:58</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+		<NamedIndividual IRI="#Gaming"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+        <Literal>CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+        <Literal>Came in there with one mission. Win the 1v1 vs. Cash Nasty no matter the cost.👉 3 PT CONTEST vs. FL...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+        <Literal>Agent 00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#CASH_NASTY_MADE_A_MISTAKE_CHALLENGING_ME_TO_THIS_1V1_____Agent_02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T17:57:08</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+        <Literal>MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+        <Literal>Welcome to nat's life lmao.For business-nathalycuevas@select.co P.O box : 1030 N Mountain Ave #160 O...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+        <Literal>Nathaly Cuevas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#MY_FIRST_DAY_OF_SCHOOL_VLOG___Senior_Year__2020_21"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T22:15:50</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+        <Literal>Swapping_Outfits_With_A_Drag_Queen_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+        <Literal>Swapping Outfits With A Drag Queen!I decided it would be fun to swap styles with Jake Warden, who IS...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+        <Literal>Rclbeauty101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Swapping_Outfits_With_A_Drag_Queen_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T15:58:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+        <Literal>Who_Makes_The_BEST_Hot_Dog__Glizzy____</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+        <Literal>Today the boys go to different fast food spots to see who makes the best hot dog! (Dog haus, Five gu...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+        <Literal>Jesser</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Who_Makes_The_BEST_Hot_Dog__Glizzy____"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T22:09:51</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+		<NamedIndividual IRI="#Travel_and_Events"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+        <Literal>We_Need_Some_Time_Apart</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+        <Literal>[Episode 261] Life in close quarters can be full on when you're carting your life around on a boat t...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+        <Literal>Sailing La Vagabonde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#We_Need_Some_Time_Apart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T23:23:49</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+        <Literal>2HYPE_Goes_Shark_Fishing_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+        <Literal>Welcome to the Official 2HYPE Channel! Uploads are Every Saturday!New merch drop August 15th 3pm PST...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+        <Literal>2HYPE</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-08T23:02:38</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+		<NamedIndividual IRI="#People_and_Blogs"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+        <Literal>LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+        <Literal>Meet Oliver Rhett Fisher! This was such a special and emotional day for our family to meet our baby ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+        <Literal>The Fishfam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#LIVE_BIRTH_OF_OUR_BABY_BOY__EMOTIONAL_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T17:00:10</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+		<NamedIndividual IRI="#Music"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+        <Literal>Stephen_Sharer___SLUSHIE__Official_Music_Video_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+        <Literal>👚GET OFFICIAL “SLUSHIE” MERCH NOW!! ━►https://stephensharer.com/Today is the day you all have been ...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+        <Literal>Stephen Sharer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Stephen_Sharer___SLUSHIE__Official_Music_Video_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T16:15:11</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+		<NamedIndividual IRI="#Entertainment"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+        <Literal>Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+        <Literal>Brooklyn is going on TEN DATES in TEN DAYS! (This #10DatesIn10Days is mostly for fun, but we are all...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+        <Literal>Brooklyn and Bailey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Meet_Kohl__Date_3____Brooklyn_s_10_DATES_in_10_DAYS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T21:04:32</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+        <Literal>Every_Drive_Thru_Ever</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+        <Literal>Because fast food needed to be even MORE convenient. This is EVERY DRIVE THRU EVER!Punch that bell i...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+        <Literal>Smosh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Every_Drive_Thru_Ever"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T16:00:17</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+        <Literal>Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+        <Literal>Collin Morikawa hit clutch shots to separate himself from the pack during the final round of the 202...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+        <Literal>PGA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Collin_Morikawa___Best_Shots_from_His_Final_Round_64_at_the_2020_PGA_Championship"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T01:43:52</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+        <Literal>Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+        <Literal>Derrick Lewis and Alexei Oleinik went at it with the American coming out on top at the UFC Apex cent...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+        <Literal>BT Sport</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Lewis_sets_UFC_record__Derrick_Lewis_v_Alexei_Oleinik___UFC_Highlights"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T15:32:04</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+        <Literal>Grilled_Ribeye_Steak_Sausage</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+        <Literal>We ditched the pan for this episode and brought out ol' rusty.Patreon: https://www.patreon.com/ordin...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+        <Literal>Ordinary Sausage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Grilled_Ribeye_Steak_Sausage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-11T16:15:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+		<NamedIndividual IRI="#Education"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+        <Literal>Avatar_Intro_but_with_Animals</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+        <Literal>Long ago ⏱, the four4️⃣ pets🐶 lived together in harmony ☮️ Then, everything👐 changed 😧when the Fi...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+        <Literal>BLTW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Avatar_Intro_but_with_Animals"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-03T21:51:14</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+		<NamedIndividual IRI="#News_and_Politics"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+        <Literal>North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+        <Literal>North Carolina 5.1 magnitude earthquake felt in several surrounding statesSubscribe to WXII on YouTu...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+        <Literal>WXII 12 News</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#North_Carolina_5_1_magnitude_earthquake_felt_in_several_surrounding_states"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T22:37:14</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+		<NamedIndividual IRI="#Travel_and_Events"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+        <Literal>Our_Fertility_Journey__Episode_10</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+        <Literal>Week 28-29 Update. Nursery Planning and a 29-week checkup.Thanks to Target for sponsoring this video...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+        <Literal>The Perkins</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Our_Fertility_Journey__Episode_10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-09T19:09:03</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+		<NamedIndividual IRI="#Sports"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+        <Literal>Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+        <Literal>23-year-old Collin Morikawa hit a near-perfect tee shot to eagle the 16th hole during the final roun...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+        <Literal>PGA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Collin_Morikawa_Hits_Incredible_Drive_to_Win_2020_PGA_Championship"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T00:49:11</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+		<NamedIndividual IRI="#Comedy"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+        <Literal>WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#description"/>
+        <NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+        <Literal>Jeff’s Barbershop merch is available now at 👇https://www.fanjoy.co/jeff Follow my Instagramhttps://...</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+        <Literal>Jeff Wittek</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#WE_SECRETLY_FILMED_THE_DOLAN_TWINS___Jeff_s_Barbershop"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-10T19:04:01</Literal>
+    </DataPropertyAssertion>
