@@ -1,0 +1,2876 @@
+
+    <Declaration>
+        <NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+	</ClassAssertion>
+	
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+        <Literal>2013_Will_Be_My_Year</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">161045</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+        <Literal>Jay and Others :></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#2013_Will_Be_My_Year"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+	</ClassAssertion>
+	
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+        <Literal>Inner_City_Life___2020_Remaster</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">422183</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+        <Literal>Goldie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Inner_City_Life___2020_Remaster"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+        <Literal>Blow_Your_Mind__Mwah_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">178583</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+        <Literal>Dua Lipa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Blow_Your_Mind__Mwah_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Break_My_Heart"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Break_My_Heart"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Break_My_Heart"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Break_My_Heart"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>Break_My_Heart</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">352453</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal>Dua Lipa, Moodymann</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Break_My_Heart"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Again"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Love_Again"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Love_Again"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Love_Again"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Love_Again"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Love_Again"/>
+        <Literal>Love_Again</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Love_Again"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">258004</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Love_Again"/>
+        <Literal>Dua Lipa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Love_Again"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Love_Again"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#That_s_What_I_Like"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#That_s_What_I_Like"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#That_s_What_I_Like"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#That_s_What_I_Like"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#That_s_What_I_Like"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#That_s_What_I_Like"/>
+        <Literal>That_s_What_I_Like</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#That_s_What_I_Like"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">205080</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#That_s_What_I_Like"/>
+        <Literal>Bruno Mars</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#That_s_What_I_Like"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#That_s_What_I_Like"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Count_On_Me"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Count_On_Me"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Count_On_Me"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Count_On_Me"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>,<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Count_On_Me"/>
+		<NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Count_On_Me"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Count_On_Me"/>
+        <Literal>Count_On_Me</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Count_On_Me"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">197373</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Count_On_Me"/>
+        <Literal>Bruno Mars</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Count_On_Me"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Count_On_Me"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Just_the_Way_You_Are"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Just_the_Way_You_Are"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Just_the_Way_You_Are"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Just_the_Way_You_Are"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+        <Literal>Just_the_Way_You_Are</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">220733</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+        <Literal>Bruno Mars</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Just_the_Way_You_Are"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Perfect"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Perfect"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Perfect"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Perfect"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Perfect"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Perfect"/>
+        <Literal>Perfect</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Perfect"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">263400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Perfect"/>
+        <Literal>Ed Sheeran</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Perfect"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Perfect"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Two_"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Two_"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Two_"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Two_"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Two_"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Two_"/>
+        <Literal>Two_</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Two_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">185276</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Two_"/>
+        <Literal>Lil Uzi Vert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Two_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Two_"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#XO_Tour_Llif3"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#XO_Tour_Llif3"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#XO_Tour_Llif3"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#XO_Tour_Llif3"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#XO_Tour_Llif3"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#XO_Tour_Llif3"/>
+        <Literal>XO_Tour_Llif3</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#XO_Tour_Llif3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">182707</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#XO_Tour_Llif3"/>
+        <Literal>Lil Uzi Vert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#XO_Tour_Llif3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#XO_Tour_Llif3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#P2"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#P2"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#P2"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#P2"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#P2"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#P2"/>
+        <Literal>P2</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#P2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">234627</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#P2"/>
+        <Literal>Lil Uzi Vert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#P2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#P2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Myron"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Myron"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Myron"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Myron"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Myron"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Myron"/>
+        <Literal>Myron</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Myron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">224955</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Myron"/>
+        <Literal>Lil Uzi Vert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Myron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Myron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Relationship"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Relationship"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Relationship"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Relationship"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Relationship"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Relationship"/>
+        <Literal>Relationship</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Relationship"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">215307</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Relationship"/>
+        <Literal>Young Thug, Future</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Relationship"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Relationship"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Hot"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Hot"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Hot"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hot"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hot"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Hot"/>
+        <Literal>Hot</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Hot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">193027</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Hot"/>
+        <Literal>Young Thug, Gunna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Hot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Hot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Millions"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Millions"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Millions"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Millions"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Millions"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Millions"/>
+        <Literal>Millions</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Millions"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">157520</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Millions"/>
+        <Literal>Young Thug</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Millions"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Millions"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Be_Careful"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Be_Careful"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Be_Careful"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Be_Careful"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Be_Careful"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Be_Careful"/>
+        <Literal>Be_Careful</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Be_Careful"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">210787</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Be_Careful"/>
+        <Literal>Cardi B</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Be_Careful"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Be_Careful"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Up"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Up"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Up"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Up"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Up"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Up"/>
+        <Literal>Up</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Up"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">156945</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Up"/>
+        <Literal>Cardi B</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Up"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Up"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#WAP"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#WAP"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#WAP"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#WAP"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#WAP"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#WAP"/>
+        <Literal>WAP</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#WAP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">187541</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#WAP"/>
+        <Literal>Cardi B, Megan Thee Stallion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#WAP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#WAP"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Press"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Press"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Press"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Press"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Press"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Press"/>
+        <Literal>Press</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Press"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">143792</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Press"/>
+        <Literal>Cardi B</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Press"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Press"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Under_the_Milky_Way"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Under_the_Milky_Way"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Under_the_Milky_Way"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Under_the_Milky_Way"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Under_the_Milky_Way"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Under_the_Milky_Way"/>
+        <Literal>Under_the_Milky_Way</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Under_the_Milky_Way"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">214893</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Under_the_Milky_Way"/>
+        <Literal>Sia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Under_the_Milky_Way"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Under_the_Milky_Way"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+        <Literal>A_Sky_Full_of_Stars</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">267867</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+        <Literal>Coldplay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Sparks"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Sparks"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Sparks"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Sparks"/>
+		<NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Sparks"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Sparks"/>
+        <Literal>Sparks</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Sparks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">227093</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Sparks"/>
+        <Literal>Coldplay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Sparks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Sparks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal>Hymn_for_the_Weekend</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">258267</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal>Coldplay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal>Hymn_for_the_Weekend</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">212647</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal>Coldplay, Seeb</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Hymn_for_the_Weekend"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#The_Scientist"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#The_Scientist"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#The_Scientist"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_Scientist"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>,<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_Scientist"/>
+		<NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_Scientist"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#The_Scientist"/>
+        <Literal>The_Scientist</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#The_Scientist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">309600</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#The_Scientist"/>
+        <Literal>Coldplay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#The_Scientist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#The_Scientist"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Savage"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Savage"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Savage"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Savage"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Savage"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Savage"/>
+        <Literal>Savage</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Savage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">155497</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Savage"/>
+        <Literal>Megan Thee Stallion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Savage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Savage"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Cry_Baby"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Cry_Baby"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Cry_Baby"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Cry_Baby"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Cry_Baby"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Cry_Baby"/>
+        <Literal>Cry_Baby</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Cry_Baby"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">137984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Cry_Baby"/>
+        <Literal>Megan Thee Stallion, DaBaby</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Cry_Baby"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Cry_Baby"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Body"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Body"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Body"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Body"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Body"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Body"/>
+        <Literal>Body</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Body"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">171067</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Body"/>
+        <Literal>Megan Thee Stallion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Body"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Body"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Project_Dreams"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Project_Dreams"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Project_Dreams"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Project_Dreams"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Project_Dreams"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Project_Dreams"/>
+        <Literal>Project_Dreams</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Project_Dreams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">167898</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Project_Dreams"/>
+        <Literal>Marshmello, Roddy Ricch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Project_Dreams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Project_Dreams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Spicy"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Spicy"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Spicy"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Spicy"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Spicy"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Spicy"/>
+        <Literal>Spicy</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Spicy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">143375</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Spicy"/>
+        <Literal>Ty Dolla $ign, Post Malone</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Spicy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Spicy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Black_and_Yellow"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Black_and_Yellow"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Black_and_Yellow"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Black_and_Yellow"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Black_and_Yellow"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Black_and_Yellow"/>
+        <Literal>Black_and_Yellow</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Black_and_Yellow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">217667</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Black_and_Yellow"/>
+        <Literal>Wiz Khalifa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Black_and_Yellow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Black_and_Yellow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#See_You_Again"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#See_You_Again"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#See_You_Again"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#See_You_Again"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#See_You_Again"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#See_You_Again"/>
+        <Literal>See_You_Again</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#See_You_Again"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">229526</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#See_You_Again"/>
+        <Literal>Wiz Khalifa, Charlie Puth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#See_You_Again"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#See_You_Again"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#High_Fashion"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#High_Fashion"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#High_Fashion"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#High_Fashion"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#High_Fashion"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#High_Fashion"/>
+        <Literal>High_Fashion</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#High_Fashion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">220487</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#High_Fashion"/>
+        <Literal>Roddy Ricch, Mustard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#High_Fashion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#High_Fashion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Big_Stepper"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Big_Stepper"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Big_Stepper"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Big_Stepper"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Big_Stepper"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Big_Stepper"/>
+        <Literal>Big_Stepper</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Big_Stepper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">175170</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Big_Stepper"/>
+        <Literal>Roddy Ricch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Big_Stepper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Big_Stepper"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#The_Box"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#The_Box"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#The_Box"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_Box"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_Box"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#The_Box"/>
+        <Literal>The_Box</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#The_Box"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">196653</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#The_Box"/>
+        <Literal>Roddy Ricch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#The_Box"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#The_Box"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>,<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+		<NamedIndividual IRI="#Spotify_Instrumental_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+        <Literal>10_Years___Eurovision_2021___Iceland___Karaoke_Version</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">165167</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+        <Literal>Daði and Gagnamagnið</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#10_Years___Eurovision_2021___Iceland___Karaoke_Version"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Want_to_Want_Me"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Want_to_Want_Me"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Want_to_Want_Me"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Want_to_Want_Me"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+        <Literal>Want_to_Want_Me</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">193024</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+        <Literal>Jason Derulo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Want_to_Want_Me"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Take_You_Dancing"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Take_You_Dancing"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Take_You_Dancing"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Take_You_Dancing"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Take_You_Dancing"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Take_You_Dancing"/>
+        <Literal>Take_You_Dancing</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Take_You_Dancing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">190306</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Take_You_Dancing"/>
+        <Literal>Jason Derulo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Take_You_Dancing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Take_You_Dancing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+        <Literal>The_Sky_s_the_Limit</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">205867</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+        <Literal>Jason Derulo, Ayo~</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#The_Sky_s_the_Limit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Whatcha_Say"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Whatcha_Say"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Whatcha_Say"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Whatcha_Say"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Whatcha_Say"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Whatcha_Say"/>
+        <Literal>Whatcha_Say</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Whatcha_Say"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">221253</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Whatcha_Say"/>
+        <Literal>Jason Derulo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Whatcha_Say"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Whatcha_Say"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+        <Literal>Don_t_Wanna_Go_Home</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">206080</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+        <Literal>Jason Derulo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Don_t_Wanna_Go_Home"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Hold_On"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Hold_On"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Hold_On"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hold_On"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hold_On"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Hold_On"/>
+        <Literal>Hold_On</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Hold_On"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">170813</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Hold_On"/>
+        <Literal>Justin Bieber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Hold_On"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Hold_On"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Yummy"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Yummy"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Yummy"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Yummy"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Yummy"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Yummy"/>
+        <Literal>Yummy</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Yummy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">208520</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Yummy"/>
+        <Literal>Justin Bieber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Yummy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Yummy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Intentions___Acoustic"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Intentions___Acoustic"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Intentions___Acoustic"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Intentions___Acoustic"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>,<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Intentions___Acoustic"/>
+		<NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Intentions___Acoustic"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Intentions___Acoustic"/>
+        <Literal>Intentions___Acoustic</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Intentions___Acoustic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">160612</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Intentions___Acoustic"/>
+        <Literal>Justin Bieber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Intentions___Acoustic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Intentions___Acoustic"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Holy"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Holy"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Holy"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Holy"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Holy"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Holy"/>
+        <Literal>Holy</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Holy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">212093</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Holy"/>
+        <Literal>Justin Bieber, Chance the Rapper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Holy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Holy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Love_Yourself"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Love_Yourself"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Love_Yourself"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Love_Yourself"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>,<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Love_Yourself"/>
+		<NamedIndividual IRI="#Spotify_Acoustic_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Love_Yourself"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Love_Yourself"/>
+        <Literal>Love_Yourself</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Love_Yourself"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">232627</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Love_Yourself"/>
+        <Literal>Justin Bieber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Love_Yourself"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Love_Yourself"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Anyone"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Anyone"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Anyone"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Anyone"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Anyone"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Anyone"/>
+        <Literal>Anyone</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Anyone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">190779</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Anyone"/>
+        <Literal>Justin Bieber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Anyone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Anyone"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+        <Literal>Turn_To_You__Mother_s_Day_Dedication____Single_Version</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">219973</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+        <Literal>Justin Bieber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Turn_To_You__Mother_s_Day_Dedication____Single_Version"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Catching_Feelings"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Catching_Feelings"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Catching_Feelings"/>
+	</ClassAssertion>
+	
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Catching_Feelings"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Catching_Feelings"/>
+        <Literal>Catching_Feelings</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Catching_Feelings"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">234680</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Catching_Feelings"/>
+        <Literal>Justin Bieber</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Catching_Feelings"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Catching_Feelings"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+        <Literal>All_Girls_Are_The_Same</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">165820</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+        <Literal>Juice WRLD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#All_Girls_Are_The_Same"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Lucid_Dreams"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Lucid_Dreams"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Lucid_Dreams"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Lucid_Dreams"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Lucid_Dreams"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Lucid_Dreams"/>
+        <Literal>Lucid_Dreams</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Lucid_Dreams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">239836</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Lucid_Dreams"/>
+        <Literal>Juice WRLD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Lucid_Dreams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Lucid_Dreams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Hear_Me_Calling"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Hear_Me_Calling"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Hear_Me_Calling"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hear_Me_Calling"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Hear_Me_Calling"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Hear_Me_Calling"/>
+        <Literal>Hear_Me_Calling</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Hear_Me_Calling"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">189977</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Hear_Me_Calling"/>
+        <Literal>Juice WRLD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Hear_Me_Calling"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Hear_Me_Calling"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Robbery"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Robbery"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Robbery"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Robbery"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Robbery"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Robbery"/>
+        <Literal>Robbery</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Robbery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">240527</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Robbery"/>
+        <Literal>Juice WRLD</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Robbery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Robbery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Morado"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Morado"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Morado"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Morado"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Morado"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Morado"/>
+        <Literal>Morado</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Morado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">200667</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Morado"/>
+        <Literal>J Balvin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Morado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Morado"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#No_Es_Justo"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#No_Es_Justo"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#No_Es_Justo"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#No_Es_Justo"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#No_Es_Justo"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#No_Es_Justo"/>
+        <Literal>No_Es_Justo</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#No_Es_Justo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">251267</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#No_Es_Justo"/>
+        <Literal>J Balvin, Zion and Lennox</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#No_Es_Justo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#No_Es_Justo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Azul"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Azul"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Azul"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Azul"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Azul"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Azul"/>
+        <Literal>Azul</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">206373</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Azul"/>
+        <Literal>J Balvin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Azul"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Amarillo"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Amarillo"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Amarillo"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Amarillo"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Amarillo"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Amarillo"/>
+        <Literal>Amarillo</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Amarillo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">158147</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Amarillo"/>
+        <Literal>J Balvin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Amarillo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Amarillo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+        <Literal>Yo_Te_Lo_Dije</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">220853</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+        <Literal>J Balvin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Yo_Te_Lo_Dije"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Negro"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Negro"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Negro"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Negro"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Negro"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Negro"/>
+        <Literal>Negro</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Negro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">182507</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Negro"/>
+        <Literal>J Balvin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Negro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Negro"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <Declaration>
+        <NamedIndividual IRI="#Sin_Compromiso"/>
+    </Declaration>
+    <ClassAssertion>
+		<Class IRI="#Standalone"/>
+		<NamedIndividual IRI="#Sin_Compromiso"/>
+	</ClassAssertion>
+	<ClassAssertion>
+		<Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+		<NamedIndividual IRI="#Sin_Compromiso"/>
+	</ClassAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Sin_Compromiso"/>
+		<NamedIndividual IRI="#Spotify_Dance_Music"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
+		<ObjectProperty IRI="#classifiesAs"/>
+		<NamedIndividual IRI="#Sin_Compromiso"/>
+		<NamedIndividual IRI="#Spotify_Content"/>
+	</ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#streamableTitle"/>
+        <NamedIndividual IRI="#Sin_Compromiso"/>
+        <Literal>Sin_Compromiso</Literal>
+    </DataPropertyAssertion>
+    
+    <DataPropertyAssertion>
+        <DataProperty IRI="#runningTime"/>
+        <NamedIndividual IRI="#Sin_Compromiso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">189027</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Sin_Compromiso"/>
+        <Literal>J Balvin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#releaseDate"/>
+        <NamedIndividual IRI="#Sin_Compromiso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#uploadDate"/>
+        <NamedIndividual IRI="#Sin_Compromiso"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-04-16T00:00:00</Literal>
+    </DataPropertyAssertion>
