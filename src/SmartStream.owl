@@ -1079,6 +1079,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify_Classic_DailySubscription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Spotify_Classic_ReadAccess"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Spotify_ConsumerPlan"/>
     </Declaration>
     <Declaration>
@@ -1106,6 +1109,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify_HipHop_DailySubscription"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Spotify_HipHop_ReadAccess"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Spotify_Hip_Hop_Music"/>
     </Declaration>
     <Declaration>
@@ -1119,6 +1125,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spotify_Podcast_DailySubscription"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spotify_Podcast_ReadAccess"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Spotify_Rap_Music"/>
@@ -1319,6 +1328,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#YoutubeService"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Youtube_Comedy_ReadAccess"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Youtube_ConsumerPlan"/>
     </Declaration>
     <Declaration>
@@ -1329,6 +1341,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Youtube_EditorPlan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Youtube_Music_ReadAccess"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Youtube_Premium_Comedy_DailySubscription"/>
@@ -1347,6 +1362,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Youtube_ReadAccess"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Youtube_Sports_ReadAccess"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Youtube_WriteAccess"/>
@@ -3682,6 +3700,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify_Classic_DailySubscription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Spotify_Classic_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ConsumerPlan"/>
         <NamedIndividual IRI="#Spotify_ConsumerPlan"/>
     </ClassAssertion>
@@ -3718,6 +3740,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify_HipHop_DailySubscription"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Spotify_HipHop_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
         <NamedIndividual IRI="#Spotify_Hip_Hop_Music"/>
     </ClassAssertion>
@@ -3736,6 +3762,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="#DailySubscription"/>
         <NamedIndividual IRI="#Spotify_Podcast_DailySubscription"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Spotify_Podcast_ReadAccess"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
@@ -4178,6 +4208,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#YoutubeService"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Youtube_Comedy_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#ConsumerPlan"/>
         <NamedIndividual IRI="#Youtube_ConsumerPlan"/>
     </ClassAssertion>
@@ -4192,6 +4226,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="#EditorPlan"/>
         <NamedIndividual IRI="#Youtube_EditorPlan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Youtube_Music_ReadAccess"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#DailySubscription"/>
@@ -4216,6 +4254,10 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ClassAssertion>
         <Class IRI="#ReadAccess"/>
         <NamedIndividual IRI="#Youtube_ReadAccess"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReadAccess"/>
+        <NamedIndividual IRI="#Youtube_Sports_ReadAccess"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#WriteAccess"/>
@@ -6314,16 +6356,21 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#giveAccessToType"/>
+        <ObjectProperty IRI="#grants"/>
         <NamedIndividual IRI="#Spotify_Classic_DailySubscription"/>
+        <NamedIndividual IRI="#Spotify_Classic_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Spotify_Classic_DailySubscription"/>
+        <NamedIndividual IRI="#Spotify"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <NamedIndividual IRI="#Spotify_Classic_ReadAccess"/>
         <NamedIndividual IRI="#Classics"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Spotify_Classic_DailySubscription"/>
-        <NamedIndividual IRI="#Spotify"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#grants"/>
         <NamedIndividual IRI="#Spotify_ConsumerPlan"/>
         <NamedIndividual IRI="#Spotify_ReadAccess"/>
@@ -6389,16 +6436,21 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#giveAccessToType"/>
+        <ObjectProperty IRI="#grants"/>
         <NamedIndividual IRI="#Spotify_HipHop_DailySubscription"/>
+        <NamedIndividual IRI="#Spotify_HipHop_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Spotify_HipHop_DailySubscription"/>
+        <NamedIndividual IRI="#Spotify"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <NamedIndividual IRI="#Spotify_HipHop_ReadAccess"/>
         <NamedIndividual IRI="#Spotify_Hip_Hop_Music"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Spotify_HipHop_DailySubscription"/>
-        <NamedIndividual IRI="#Spotify"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#grants"/>
         <NamedIndividual IRI="#Spotify_Individual_Subscription"/>
         <NamedIndividual IRI="#Spotify_CreateAccess"/>
@@ -6419,14 +6471,19 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Spotify"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#giveAccessToType"/>
+        <ObjectProperty IRI="#grants"/>
         <NamedIndividual IRI="#Spotify_Podcast_DailySubscription"/>
-        <NamedIndividual IRI="#Spotify_Podcast"/>
+        <NamedIndividual IRI="#Spotify_Podcast_ReadAccess"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Spotify_Podcast_DailySubscription"/>
         <NamedIndividual IRI="#Spotify"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <NamedIndividual IRI="#Spotify_Podcast_ReadAccess"/>
+        <NamedIndividual IRI="#Spotify_Podcast"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#grants"/>
@@ -6789,56 +6846,66 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Youtube"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#grants"/>
-        <NamedIndividual IRI="#Youtube_ConsumerPlan"/>
-        <NamedIndividual IRI="#Youtube_ReadAccess"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Youtube_ConsumerPlan"/>
-        <NamedIndividual IRI="#Youtube"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#grants"/>
-        <NamedIndividual IRI="#Youtube_CreatorPlan"/>
-        <NamedIndividual IRI="#Youtube_CreateAccess"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#grants"/>
-        <NamedIndividual IRI="#Youtube_CreatorPlan"/>
-        <NamedIndividual IRI="#Youtube_ReadAccess"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Youtube_CreatorPlan"/>
-        <NamedIndividual IRI="#Youtube"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#grants"/>
-        <NamedIndividual IRI="#Youtube_EditorPlan"/>
-        <NamedIndividual IRI="#Youtube_CreateAccess"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#grants"/>
-        <NamedIndividual IRI="#Youtube_EditorPlan"/>
-        <NamedIndividual IRI="#Youtube_ReadAccess"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#grants"/>
-        <NamedIndividual IRI="#Youtube_EditorPlan"/>
-        <NamedIndividual IRI="#Youtube_WriteAccess"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isOfferedBy"/>
-        <NamedIndividual IRI="#Youtube_EditorPlan"/>
-        <NamedIndividual IRI="#Youtube"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessToType"/>
-        <NamedIndividual IRI="#Youtube_Premium_Comedy_DailySubscription"/>
+        <NamedIndividual IRI="#Youtube_Comedy_ReadAccess"/>
         <NamedIndividual IRI="#Comedy"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Youtube_ConsumerPlan"/>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Youtube_ConsumerPlan"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Youtube_CreatorPlan"/>
+        <NamedIndividual IRI="#Youtube_CreateAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Youtube_CreatorPlan"/>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Youtube_CreatorPlan"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Youtube_EditorPlan"/>
+        <NamedIndividual IRI="#Youtube_CreateAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Youtube_EditorPlan"/>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Youtube_EditorPlan"/>
+        <NamedIndividual IRI="#Youtube_WriteAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isOfferedBy"/>
+        <NamedIndividual IRI="#Youtube_EditorPlan"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <NamedIndividual IRI="#Youtube_Music_ReadAccess"/>
+        <NamedIndividual IRI="#Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#grants"/>
+        <NamedIndividual IRI="#Youtube_Premium_Comedy_DailySubscription"/>
+        <NamedIndividual IRI="#Youtube_Comedy_ReadAccess"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Youtube_Premium_Comedy_DailySubscription"/>
         <NamedIndividual IRI="#Youtube"/>
@@ -6864,9 +6931,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Youtube"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#giveAccessToType"/>
+        <ObjectProperty IRI="#grants"/>
         <NamedIndividual IRI="#Youtube_Premium_Music_DailySubscription"/>
-        <NamedIndividual IRI="#Music"/>
+        <NamedIndividual IRI="#Youtube_Music_ReadAccess"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -6874,9 +6941,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Youtube"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#giveAccessToType"/>
+        <ObjectProperty IRI="#grants"/>
         <NamedIndividual IRI="#Youtube_Premium_Sports_DailySubscription"/>
-        <NamedIndividual IRI="#Sports"/>
+        <NamedIndividual IRI="#Youtube_Sports_ReadAccess"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isOfferedBy"/>
@@ -6902,6 +6969,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Youtube_Premium_Subscription"/>
         <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessToType"/>
+        <NamedIndividual IRI="#Youtube_Sports_ReadAccess"/>
+        <NamedIndividual IRI="#Sports"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#classifiesAs"/>
