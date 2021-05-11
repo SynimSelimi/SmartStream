@@ -5536,6 +5536,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#A_Sky_Full_of_Stars"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#watches"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#2HYPE_Goes_Shark_Fishing_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#consistsOf"/>
         <NamedIndividual IRI="#Entertainment_Industry"/>
         <NamedIndividual IRI="#Netflix"/>
