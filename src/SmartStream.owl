@@ -4411,6 +4411,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
     </ClassAssertion>
     <DifferentIndividuals>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <NamedIndividual IRI="#user_1"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
         <NamedIndividual IRI="#NetflixService"/>
         <NamedIndividual IRI="#SpotifyService"/>
         <NamedIndividual IRI="#StreamingService"/>
