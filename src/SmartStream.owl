@@ -197,6 +197,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#grants"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasAccessToWatch"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasDuration"/>
     </Declaration>
     <Declaration>
@@ -16391,6 +16394,10 @@ Cincinnati, OH 45236</Literal>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAccessToWatch"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDuration"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyDomain>
@@ -16543,6 +16550,13 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAccessToWatch"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDuration"/>
         <Class IRI="http://www.w3.org/2006/time#Duration"/>
     </ObjectPropertyRange>
@@ -16648,6 +16662,13 @@ Cincinnati, OH 45236</Literal>
             <ObjectProperty IRI="#follows"/>
         </ObjectPropertyChain>
         <ObjectProperty IRI="#closeFollows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasPermissions"/>
+            <ObjectProperty IRI="#giveAccess"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasAccessToWatch"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
