@@ -13,6 +13,9 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="smst" IRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream"/>
+    <Import>http://ontology.eil.utoronto.ca/icity/Time/1.1/</Import>
+    <Import>http://www.w3.org/ns/ma-ont</Import>
+    <Import>http://www.w3.org/ns/org#</Import>
     <Annotation>
         <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-8#creator"/>
         <Literal xml:lang="en">Gentris Leci
@@ -149,6 +152,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#deletes"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#displayDay"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#displays"/>
     </Declaration>
     <Declaration>
@@ -168,6 +174,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#grants"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDuration"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasFormat"/>
@@ -222,6 +231,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#plays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#watches"/>
@@ -1490,8 +1502,20 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Datatype IRI="#phoneNumber"/>
     </Declaration>
     <EquivalentClasses>
+        <Class IRI="#Company"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Follower"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <Class IRI="http://www.w3.org/ns/ma-ont#MediaResource"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#AudioIndustry"/>
@@ -15862,6 +15886,10 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#displayDay"/>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#displays"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -15884,6 +15912,10 @@ Cincinnati, OH 45236</Literal>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#grants"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDuration"/>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasFormat"/>
@@ -15944,6 +15976,10 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#watches"/>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
@@ -15998,6 +16034,9 @@ Cincinnati, OH 45236</Literal>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#isAccessedThrough"/>
     </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
+    </AsymmetricObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#offers"/>
     </TransitiveObjectProperty>
@@ -16033,6 +16072,10 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#displayDay"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#displays"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyDomain>
@@ -16050,6 +16093,10 @@ Cincinnati, OH 45236</Literal>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
         </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDuration"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isA"/>
@@ -16157,6 +16204,10 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#displayDay"/>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#displays"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyRange>
@@ -16179,6 +16230,10 @@ Cincinnati, OH 45236</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#grants"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDuration"/>
+        <Class IRI="http://www.w3.org/2006/time#Duration"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isA"/>
@@ -16255,6 +16310,7 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#isUsedIn"/>
         <ObjectProperty IRI="#pays"/>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#creates"/>
@@ -16262,6 +16318,10 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#edits"/>
         <ObjectProperty IRI="#plays"/>
         <ObjectProperty IRI="#watches"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#displayDay"/>
+        <ObjectProperty IRI="#hasDuration"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#isPaidOnce"/>

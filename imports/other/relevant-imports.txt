@@ -1,0 +1,10 @@
+http://ontology.eil.utoronto.ca/
+https://w3c.github.io/sdw/time/
+https://www.epimorphics.com/guide-to-the-payments-ontology/
+https://www.w3.org/TR/mediaont/
+https://protegewiki.stanford.edu/images/d/de/Monetary_ontology_0.1d.zip
+https://www.dublincore.org/schemas/rdfs/
+https://www.w3.org/TR/vocab-org/
+
+http://oscaf.sourceforge.net/
+http://oscaf.sourceforge.net/nmm.html
