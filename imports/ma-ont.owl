@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/ns/ma-ont"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.w3.org/ns/ma-ont">
+    <Prefix name="" IRI="http://www.w3.org/ns/ma-ont#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ma-ont" IRI="http://www.w3.org/ns/ma-ont#"/>
+    <Prefix name="owl2xml" IRI="http://www.w3.org/2006/12/owl2-xml#"/>
+    <Import>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_elements.rdf</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2013-03-20</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Created by Tobias Buerger, Jean Pierre Evain and Pierre-Antoine Champin with the RDFS Taskforce within the W3C Media Annotation Working Group.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>THE CONTENT OF THIS MA-ONT.RDF AND DERIVED MA-ONT.TTL FILES PREVAIL OVER THE SPECIFICATION.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>R36</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudioTrack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTrack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaFragment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MediaResource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetAudience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Track"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VideoTrack"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#createdIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#depictsFictionalLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#features"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccessConditions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAudioDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCaptioning"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasChapter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClassificationSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContributedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContributor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCopyrightOver"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCreated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCreator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFragment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasKeyword"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLocationCoordinateSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNamedFragment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPermissions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPolicy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPublished"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPublisher"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelatedImage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelatedLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelatedResource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSigning"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSource"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubtitling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTargetAudience"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTrack"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCaptioningOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isChapterOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCopyrightedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCreationLocationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFictionalLocationDepictedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isFragmentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isImageRelatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLocationRelatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isNamedFragmentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProvidedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRatingOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSigningOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSourceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTargetAudienceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTrackOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#playsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#alternativeTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#averageBitRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#collectionName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#copyright"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#creationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#editDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fragmentName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#frameHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#frameRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#frameSizeUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#frameWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locationAltitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locationLatitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locationLongitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locationName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#locator"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mainOriginalTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numberOfTracks"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ratingScaleMax"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ratingScaleMin"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ratingValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#recordDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#releaseDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#samplingRate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#trackName"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AudioTrack"/>
+        <Class IRI="#Track"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTrack"/>
+        <Class IRI="#Track"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image"/>
+        <Class IRI="#MediaResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MediaFragment"/>
+        <Class IRI="#MediaResource"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organisation"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Person"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Track"/>
+        <Class IRI="#MediaFragment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoTrack"/>
+        <Class IRI="#Track"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Collection"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Location"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#MediaResource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Rating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agent"/>
+        <Class IRI="#TargetAudience"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AudioTrack"/>
+        <Class IRI="#DataTrack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AudioTrack"/>
+        <Class IRI="#VideoTrack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collection"/>
+        <Class IRI="#Location"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collection"/>
+        <Class IRI="#MediaResource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collection"/>
+        <Class IRI="#Rating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Collection"/>
+        <Class IRI="#TargetAudience"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DataTrack"/>
+        <Class IRI="#VideoTrack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#MediaResource"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#Rating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Location"/>
+        <Class IRI="#TargetAudience"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MediaResource"/>
+        <Class IRI="#Rating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MediaResource"/>
+        <Class IRI="#TargetAudience"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Organisation"/>
+        <Class IRI="#Person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Rating"/>
+        <Class IRI="#TargetAudience"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#createdIn"/>
+        <ObjectProperty IRI="#hasRelatedLocation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#depictsFictionalLocation"/>
+        <ObjectProperty IRI="#hasRelatedLocation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#features"/>
+        <ObjectProperty IRI="#hasContributor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAccessConditions"/>
+        <ObjectProperty IRI="#hasPolicy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAudioDescription"/>
+        <ObjectProperty IRI="#hasCaptioning"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCaptioning"/>
+        <ObjectProperty IRI="#hasFragment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasChapter"/>
+        <ObjectProperty IRI="#hasFragment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCreator"/>
+        <ObjectProperty IRI="#hasContributor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNamedFragment"/>
+        <ObjectProperty IRI="#hasFragment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPermissions"/>
+        <ObjectProperty IRI="#hasPolicy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPublisher"/>
+        <ObjectProperty IRI="#hasContributor"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRelatedImage"/>
+        <ObjectProperty IRI="#hasRelatedResource"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSigning"/>
+        <ObjectProperty IRI="#hasFragment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSource"/>
+        <ObjectProperty IRI="#hasRelatedResource"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSubtitling"/>
+        <ObjectProperty IRI="#hasCaptioning"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTrack"/>
+        <ObjectProperty IRI="#hasFragment"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isImageRelatedTo"/>
+        <ObjectProperty IRI="#isRelatedTo"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#createdIn"/>
+        <ObjectProperty IRI="#isCreationLocationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#depictsFictionalLocation"/>
+        <ObjectProperty IRI="#isFictionalLocationDepictedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#features"/>
+        <ObjectProperty IRI="#playsIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCaptioning"/>
+        <ObjectProperty IRI="#isCaptioningOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasChapter"/>
+        <ObjectProperty IRI="#isChapterOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasContributedTo"/>
+        <ObjectProperty IRI="#hasContributor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCopyrightOver"/>
+        <ObjectProperty IRI="#isCopyrightedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCreated"/>
+        <ObjectProperty IRI="#hasCreator"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasFragment"/>
+        <ObjectProperty IRI="#isFragmentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasMember"/>
+        <ObjectProperty IRI="#isMemberOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasNamedFragment"/>
+        <ObjectProperty IRI="#isNamedFragmentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPublished"/>
+        <ObjectProperty IRI="#hasPublisher"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRating"/>
+        <ObjectProperty IRI="#isRatingOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRelatedImage"/>
+        <ObjectProperty IRI="#isImageRelatedTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRelatedLocation"/>
+        <ObjectProperty IRI="#isLocationRelatedTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRelatedResource"/>
+        <ObjectProperty IRI="#isRelatedTo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSigning"/>
+        <ObjectProperty IRI="#isSigningOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasSource"/>
+        <ObjectProperty IRI="#isSourceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTargetAudience"/>
+        <ObjectProperty IRI="#isTargetAudienceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTrack"/>
+        <ObjectProperty IRI="#isTrackOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isProvidedBy"/>
+        <ObjectProperty IRI="#provides"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClassification"/>
+        <Class IRI="#TargetAudience"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClassificationSystem"/>
+        <Class IRI="#TargetAudience"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCompression"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasContributor"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFormat"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFragment"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasKeyword"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLanguage"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLocationCoordinateSystem"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPolicy"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRatingSystem"/>
+        <Class IRI="#Rating"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRelatedLocation"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRelatedResource"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTargetAudience"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCopyrightedBy"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#MediaResource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isProvidedBy"/>
+        <Class IRI="#Rating"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#features"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasContributor"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFragment"/>
+        <Class IRI="#MediaFragment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRating"/>
+        <Class IRI="#Rating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRelatedImage"/>
+        <Class IRI="#Image"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRelatedLocation"/>
+        <Class IRI="#Location"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTargetAudience"/>
+        <Class IRI="#TargetAudience"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTrack"/>
+        <Class IRI="#Track"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCopyrightedBy"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMemberOf"/>
+        <Class IRI="#Collection"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isProvidedBy"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#alternativeTitle"/>
+        <DataProperty IRI="#title"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#creationDate"/>
+        <DataProperty IRI="#date"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#editDate"/>
+        <DataProperty IRI="#date"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#mainOriginalTitle"/>
+        <DataProperty IRI="#title"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#recordDate"/>
+        <DataProperty IRI="#date"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#releaseDate"/>
+        <DataProperty IRI="#date"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#trackName"/>
+        <DataProperty IRI="#fragmentName"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#averageBitRate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MediaResource"/>
+            <ObjectComplementOf>
+                <Class IRI="#Image"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#collectionName"/>
+        <Class IRI="#Collection"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#copyright"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#description"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MediaResource"/>
+            <ObjectComplementOf>
+                <Class IRI="#Image"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fragmentName"/>
+        <Class IRI="#MediaFragment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frameHeight"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frameRate"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frameSizeUnit"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#frameWidth"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locationAltitude"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locationLatitude"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locationLongitude"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locationName"/>
+        <Class IRI="#Location"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#locator"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numberOfTracks"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ratingScaleMax"/>
+        <Class IRI="#Rating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ratingScaleMin"/>
+        <Class IRI="#Rating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ratingValue"/>
+        <Class IRI="#Rating"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#samplingRate"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <Class IRI="#MediaResource"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#trackName"/>
+        <Class IRI="#Track"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#averageBitRate"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#frameHeight"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#frameRate"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#frameWidth"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locationAltitude"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locationLatitude"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locationLongitude"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#locator"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numberOfTracks"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ratingScaleMax"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ratingScaleMin"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ratingValue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#samplingRate"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agent</IRI>
+        <Literal>A person or organisation contributing to the media resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#AudioTrack</IRI>
+        <Literal>A specialisation of Track for Audio to provide a link to specific data properties such as sampleRate, etc. Specialisation is defined through object properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Collection</IRI>
+        <Literal>Any group of media resource e.g. a series.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DataTrack</IRI>
+        <Literal>Ancillary data track e.g. captioning  in addition to video and audio tracks. Specialisation is made through the use of appropriate object properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Image</IRI>
+        <Literal>A still image / thumbnail / key frame related to the media resource or being the media resource itself.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Location</IRI>
+        <Literal>A location related to the media resource, e.g. depicted in the resource (possibly fictional) or where the resource was created (shooting location), etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediaFragment</IRI>
+        <Literal>A media fragment (spatial, temporal, track...) composing a media resource. In other ontologies fragment is sometimes referred to as a &apos;part&apos; or &apos;segment&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MediaResource</IRI>
+        <Literal>An image or an audiovisual media resource, which can be composed of one or more fragment / track.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Organisation</IRI>
+        <Literal>An organisation or moral agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal>A physical person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rating</IRI>
+        <Literal>Information about the rating given to a media resource.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TargetAudience</IRI>
+        <Literal>Information about The target audience (target region, target audience category but also parental guidance recommendation) for which a media resource is intended.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Track</IRI>
+        <Literal>A specialisation of MediaFragment for audiovisual content.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VideoTrack</IRI>
+        <Literal>A specialisation of Track for Video to provide a link to specific data properties such as frameRate, etc. Signing is another possible example of video track. Specialisation is defined through object properties.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#alternativeTitle</IRI>
+        <Literal>Corresponds to &apos;title.title&apos; in the Ontology for Media Resources with a &apos;title.type&apos; meaning &quot;alternative&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#averageBitRate</IRI>
+        <Literal>Corresponds to &apos;averageBitRate&apos; in the Ontology for Media Resources, expressed in kilobits/second.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#collectionName</IRI>
+        <Literal>The name by which a collection (e.g. series) is known.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#copyright</IRI>
+        <Literal>Corresponds to &apos;copyright.copyright&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#createdIn</IRI>
+        <Literal>A subproperty of &apos;hasRelatedLocation&quot; used to specify where material shooting took place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#creationDate</IRI>
+        <Literal>Corresponds to &apos;date.date&apos; in the Ontology for Media Resources with a &apos;date.type&apos; meaning &quot;creationDate&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#date</IRI>
+        <Literal>Corresponds to date.date in the ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;date.type&apos;. The recommended range is &apos;xsd:dateTime&apos; (for compliance with OWL2-QL and OWL2-RL) but other time-related datatypes may be used (e.g. &apos;xsd:gYear&apos;, &apos;xsd:date&apos;...).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#depictsFictionalLocation</IRI>
+        <Literal>A subproperty of &apos;hasRelatedLocation&apos; used to specify where the action depicted in the media is supposed to take place, as opposed to the location where shooting actually took place (see &apos;createdIn&apos;).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#description</IRI>
+        <Literal>Corresponds to &apos;description&apos; in the Ontology for Media Resources. This can be specialised by using sub-properties e.g. &apos;summary&apos; or &apos;script&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#duration</IRI>
+        <Literal>Corresponds to &apos;duration&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#editDate</IRI>
+        <Literal>Corresponds to &apos;date.date&apos; in the Ontology for Media Resources with a &apos;date.type&apos; meaning &quot;editDate&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#features</IRI>
+        <Literal>Corresponds to &apos;contributor.contributor&apos; in the Ontology for Media Resources with a &apos;contributor.role&apos; meaning &quot;actor&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fragmentName</IRI>
+        <Literal>Corresponds to &apos;namedFragment.label&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#frameHeight</IRI>
+        <Literal>Corresponds to &apos;frameSize.height&apos; in the Ontology for Media Resources, measured in frameSizeUnit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#frameRate</IRI>
+        <Literal>Corresponds to &apos;frameRate&apos; in the Ontology for Media Resources, in frame per second.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#frameSizeUnit</IRI>
+        <Literal>Corresponds to &apos;frameSize.unit&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#frameWidth</IRI>
+        <Literal>Corresponds to &apos;frameSize.width&apos; in the Ontology for Media Resources measured in frameSizeUnit.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAccessConditions</IRI>
+        <Literal>Corresponds to &apos;policy&apos; in the Ontology for Media Resources with a &apos;policy.type&apos; &quot;access conditions&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAudioDescription</IRI>
+        <Literal>Corresponds to &apos;fragment&apos; in the Ontology for Media Resources with a &apos;fragment.role&apos; meaning &quot;audio-description&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCaptioning</IRI>
+        <Literal>Corresponds to &apos;fragment&apos; in the Ontology for Media Resources with a &apos;fragment.role&apos; meaning &quot;captioning&quot;. This property can for example point to a spatial fragment, a VideoTrack or a DataTrack. The language of the captioning track can be expressed by attaching a &apos;hasLanguage&apos; property to the specific track.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasChapter</IRI>
+        <Literal>Corresponds to &apos;fragment&apos; in the Ontology for Media Resources with a &apos;fragment.role&apos; meaning &quot;chapter&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasClassification</IRI>
+        <Literal>Corresponds to &apos;targetAudience.classification&apos; in the Ontology for Media Resources. This property is used to provide a value characterising the target audience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasClassificationSystem</IRI>
+        <Literal>Corresponds to &apos;targetAudience.identifier&apos; in the Ontology for Media Resources. This is used to identify the reference sheme against which the target audience has been characterised.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCompression</IRI>
+        <Literal>Corresponds to &apos;compression&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasContributor</IRI>
+        <Literal>Corresponds to &apos;contributor.contributor&apos; in the Ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;contributor.role&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCreator</IRI>
+        <Literal>Corresponds to &apos;creator.creator&apos; in the Ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;creator.role&apos;. Note that this property is semantically a subproperty of &apos;hasContributor&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFormat</IRI>
+        <Literal>Corresponds to &apos;format&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFragment</IRI>
+        <Literal>Corresponds to &apos;fragment&apos; in the Ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;fragment.role&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGenre</IRI>
+        <Literal>Corresponds to &apos;genre&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasKeyword</IRI>
+        <Literal>Corresponds to &apos;keyword&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLanguage</IRI>
+        <Literal>Corresponds to &apos;language&apos; in the Ontology for Media Resources. The language used in the resource. A controlled vocabulary such as defined in BCP 47 SHOULD be used. This property can also be used to identify the presence of sign language (RFC 5646). By inheritance, the hasLanguage property applies indifferently at the media resource / fragment / track levels.  Best practice recommends to use to best possible level of granularity fo describe the usage of language within a media resource including at fragment and track levels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasLocationCoordinateSystem</IRI>
+        <Literal>Corresponds to &apos;location.coordinateSystem&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasNamedFragment</IRI>
+        <Literal>Corresponds to &apos;namedFragment&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPermissions</IRI>
+        <Literal>Corresponds to &apos;policy&apos; in the Ontology for Media Resources with a  &apos;policy.type&apos; meaning &quot;permissions&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPolicy</IRI>
+        <Literal>Corresponds to &apos;policy&apos; in the Ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;policy.type&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPublisher</IRI>
+        <Literal>Corresponds to &apos;publisher&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRating</IRI>
+        <Literal>Corresponds to &apos;rating&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRatingSystem</IRI>
+        <Literal>Corresponds to &apos;rating.type&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRelatedImage</IRI>
+        <Literal>Corresponds to &apos;relation&apos; and in the Ontology for Media Resources with a &apos;relation.type&apos; meaning &quot;related image&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRelatedLocation</IRI>
+        <Literal>Corresponds to &apos;location&apos; in the Ontology for Media Resources. Subproperties are provided to specify, when possible, the relation between the media resource and the location.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasRelatedResource</IRI>
+        <Literal>Corresponds to &apos;relation&apos; and in the Ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;relation.type&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSigning</IRI>
+        <Literal>Corresponds to &apos;fragment&apos; in the Ontology for Media Resources with a &apos;fragment.role&apos; meaning &quot;signing&quot;. This property can for example point to a spatial fragment or a VideoTrack. The sign language of the captioning track can be expressed by attaching a &apos;hasLanguage&apos; property to the specific track.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSource</IRI>
+        <Literal>Corresponds to &apos;relation&apos; and in the Ontology for Media Resources with a &apos;relation.type&apos; meaning &quot;source&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasSubtitling</IRI>
+        <Literal>Corresponds to &apos;fragment&apos; in the Ontology for Media Resources with a &apos;fragment.role&apos; meaning &quot;subtitling&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTargetAudience</IRI>
+        <Literal>Corresponds to &apos;targetAudience&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasTrack</IRI>
+        <Literal>Corresponds to &apos;fragment&apos; in the Ontology for Media Resources with a &apos;fragment.role&apos; meaning &quot;track&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isCopyrightedBy</IRI>
+        <Literal>Corresponds to &apos;copyright.identifier&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMemberOf</IRI>
+        <Literal>Corresponds to &apos;collection&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isProvidedBy</IRI>
+        <Literal>Corresponds to &apos;rating.identifier&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#locationAltitude</IRI>
+        <Literal>Corresponds to &apos;location.altitude&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#locationLatitude</IRI>
+        <Literal>Corresponds to &apos;location.latitude&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#locationLongitude</IRI>
+        <Literal>Corresponds to &apos;location.longitude&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#locationName</IRI>
+        <Literal>Corresponds to &apos;location.name&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#locator</IRI>
+        <Literal>Corresponds to &apos;locator&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mainOriginalTitle</IRI>
+        <Literal>Corresponds to &apos;title.title&apos; in the Ontology for Media Resources with a &apos;title.type&apos; meaning &quot;original&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#numberOfTracks</IRI>
+        <Literal>Corresponds to &apos;numTracks.number&apos; in the Ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;numTracks.type&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ratingScaleMax</IRI>
+        <Literal>Corresponds to &apos;rating.max&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ratingScaleMin</IRI>
+        <Literal>Corresponds to &apos;rating.min&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ratingValue</IRI>
+        <Literal>Corresponds to &apos;rating.value&apos; in the Ontology for Media Resources.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#recordDate</IRI>
+        <Literal>Corresponds to &apos;date.date&apos; in the Ontology for Media Resources with a &apos;date.type&apos; meaning &quot;recordDate&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#releaseDate</IRI>
+        <Literal>Corresponds to &apos;date.date&apos; in the Ontology for Media Resources with a &apos;date.type&apos; meaning &quot;releaseDate&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#samplingRate</IRI>
+        <Literal>Corresponds to &apos;samplingRate&apos; in the Ontology for Media Resources, in samples per second.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#title</IRI>
+        <Literal>Corresponds to &apos;title.title&apos; in the Ontology for Media Resources. Subproperties can be used to distinguish different values of &apos;title.type&apos;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#trackName</IRI>
+        <Literal>Corresponds to &apos;fragment.name&apos; in the Ontology for Media Resources, for Track fragments.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
