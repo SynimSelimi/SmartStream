@@ -17,6 +17,18 @@
     <Import>http://www.w3.org/ns/ma-ont</Import>
     <Import>http://www.w3.org/ns/org#</Import>
     <Annotation>
+        <AnnotationProperty IRI="http://creativecommons.org/ns#license"/>
+        <Literal>MIT</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <Literal>SmartStream</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="#prefix"/>
+        <Literal>smst</Literal>
+    </Annotation>
+    <Annotation>
         <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/untitled-ontology-8#creator"/>
         <Literal xml:lang="en">Gentris Leci
 Synim Selimi</Literal>
@@ -134,10 +146,19 @@ The definitions include concepts and ideas applicable across many streaming indu
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#belongsTo"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#classifiesAs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#closeFollows"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#consistsOf"/>
@@ -152,10 +173,10 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#deletes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#displayDay"/>
+        <ObjectProperty IRI="#displays"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#displays"/>
+        <ObjectProperty IRI="#displaysOnDay"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#edits"/>
@@ -180,6 +201,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPermissions"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interactsWith"/>
@@ -213,6 +237,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isPlayedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSameAs"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isUsedIn"/>
@@ -1490,6 +1517,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="#prefix"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#creator"/>
     </Declaration>
     <Declaration>
@@ -1545,6 +1575,13 @@ The definitions include concepts and ideas applicable across many streaming indu
             <ObjectProperty IRI="#isPartOf"/>
             <Class IRI="#Industry"/>
         </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Company"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isSameAs"/>
+            <Class IRI="http://www.w3.org/ns/org#Organization"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ConsumerPlan"/>
@@ -1805,22 +1842,43 @@ The definitions include concepts and ideas applicable across many streaming indu
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#displays"/>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <ObjectProperty IRI="#isPlayedBy"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isPlayedBy"/>
-            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
-        </ObjectSomeValuesFrom>
+        <ObjectMaxCardinality cardinality="1">
+            <ObjectProperty IRI="#displays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectMaxCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#classifiesAs"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#displaysOnDay"/>
+            <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDuration"/>
+            <Class IRI="http://www.w3.org/2006/time#Duration"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSameAs"/>
+            <Class IRI="http://www.w3.org/ns/ma-ont#MediaResource"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1897,6 +1955,20 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#watches"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.w3.org/ns/ma-ont#MediaResource"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSameAs"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isSameAs"/>
+            <Class IRI="#Company"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -4545,6 +4617,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#user_1"/>
     </DifferentIndividuals>
     <DifferentIndividuals>
+        <NamedIndividual IRI="#Netflix"/>
+        <NamedIndividual IRI="#Spotify"/>
+        <NamedIndividual IRI="#Youtube"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
         <NamedIndividual IRI="#NetflixService"/>
         <NamedIndividual IRI="#SpotifyService"/>
         <NamedIndividual IRI="#StreamingService"/>
@@ -5545,6 +5622,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Entertainment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#paysOnce"/>
         <NamedIndividual IRI="#Edie_Cruz"/>
         <NamedIndividual IRI="#Spotify_ConsumerPlan"/>
@@ -5803,6 +5885,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#classifiesAs"/>
         <NamedIndividual IRI="#Intentions___Acoustic"/>
         <NamedIndividual IRI="#Spotify_Dance_Music"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#follows"/>
+        <NamedIndividual IRI="#James_Rogan"/>
+        <NamedIndividual IRI="#user_1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#paysRegularly"/>
@@ -15886,12 +15973,12 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#displayDay"/>
-        <ObjectProperty IRI="#timelyDescribedWith"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#displays"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#displaysOnDay"/>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#edits"/>
@@ -16019,8 +16106,47 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#plays"/>
     </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#displays"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasFormat"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#isSameAs"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#belongsTo"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#classifiesAs"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#consistsOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#contains"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#creates"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#deletes"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#displays"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#displaysOnDay"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#edits"/>
+    </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#follows"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#giveAccess"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#giveAccessTo"/>
@@ -16032,14 +16158,177 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#grants"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasDuration"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasFormat"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#interactsWith"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isA"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#isAccessedThrough"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isDisplayedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isGrantedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isOfferedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPaidBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPaidOnce"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPaidRegularly"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isPlayedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isUsedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#pays"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#paysOnce"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#paysRegularly"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#plays"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#timelyDescribedWith"/>
     </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#watches"/>
+    </AsymmetricObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#offers"/>
     </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#isSameAs"/>
+    </ReflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#belongsTo"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#classifiesAs"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#consistsOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#contains"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#creates"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#deletes"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#displays"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#displaysOnDay"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#edits"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#follows"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#giveAccess"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#giveAccessTo"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#giveAccessToType"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#grants"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasDuration"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasFormat"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#interactsWith"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isA"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isAccessedThrough"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isDisplayedIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isGrantedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isOfferedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isPaidBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isPaidOnce"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isPaidRegularly"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isPlayedBy"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isUsedIn"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#pays"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#paysOnce"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#paysRegularly"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#plays"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#timelyDescribedWith"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#watches"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#closeFollows"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#consistsOf"/>
         <ObjectUnionOf>
@@ -16072,12 +16361,19 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#displayDay"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        <ObjectProperty IRI="#displays"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#displays"/>
-        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#displays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#displaysOnDay"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#edits"/>
@@ -16099,8 +16395,19 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPermissions"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#isA"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAccessedThrough"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isDisplayedIn"/>
@@ -16185,6 +16492,10 @@ Cincinnati, OH 45236</Literal>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#closeFollows"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#consistsOf"/>
         <ObjectUnionOf>
             <Class IRI="#Collection"/>
@@ -16204,12 +16515,12 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#displayDay"/>
-        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#displays"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#displaysOnDay"/>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#edits"/>
@@ -16234,6 +16545,10 @@ Cincinnati, OH 45236</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDuration"/>
         <Class IRI="http://www.w3.org/2006/time#Duration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPermissions"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isA"/>
@@ -16320,13 +16635,27 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#watches"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#displayDay"/>
+        <ObjectProperty IRI="#displaysOnDay"/>
         <ObjectProperty IRI="#hasDuration"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#isPaidOnce"/>
         <ObjectProperty IRI="#isPaidRegularly"/>
     </DisjointObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#follows"/>
+            <ObjectProperty IRI="#follows"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#closeFollows"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#pays"/>
+            <ObjectProperty IRI="#grants"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasPermissions"/>
+    </SubObjectPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#address"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
