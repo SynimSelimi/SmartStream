@@ -5,6 +5,6 @@
     <uri id="Imports Wizard Entry" name="http://www.w3.org/ns/org#" uri="http://www.w3.org/ns/org#"/>
     <uri id="Imports Wizard Entry" name="http://www.w3.org/ns/org#" uri="file:/C:/Users/User/Desktop/SmartStream/imports/org.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1621102484697" name="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream" uri="SmartStream.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1621255500925" name="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream" uri="SmartStream.owl"/>
     </group>
 </catalog>

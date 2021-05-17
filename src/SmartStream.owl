@@ -248,6 +248,12 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isUsedIn"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isWatchedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#likes"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#offers"/>
     </Declaration>
     <Declaration>
@@ -5625,6 +5631,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Entertainment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#100k"/>
+	</ObjectPropertyAssertion>
+	<ObjectPropertyAssertion>
         <ObjectProperty IRI="#follows"/>
         <NamedIndividual IRI="#Edie_Cruz"/>
         <NamedIndividual IRI="#James_Rogan"/>
@@ -7329,6 +7340,21 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#7SEEDS"/>
         <NamedIndividual IRI="#International_TV_Shows"/>
     </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#Horror"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#Science_and_Nature_TV"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#Thrillers"/>
+    </NegativeObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#country"/>
         <NamedIndividual IRI="#AJ_and_the_Queen"/>
@@ -11828,6 +11854,11 @@ Cincinnati, OH 45236</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-13T13:21:07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#feedbackRating"/>
+        <NamedIndividual IRI="#James_Rogan_Breaking_Bad_Stream"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#description"/>
         <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
         <Literal>Juice WRLD and The Weeknd - Smile is available now: https://smarturl.it/999XOGet the official V lone S...</Literal>
@@ -15947,6 +15978,11 @@ Cincinnati, OH 45236</Literal>
         <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
         <Literal>Sci-Fi/Fantasy</Literal>
     </DataPropertyAssertion>
+    <NegativeDataPropertyAssertion>
+        <DataProperty IRI="#phoneNumber"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#phoneNumber">212-400-5000</Literal>
+    </NegativeDataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#belongsTo"/>
         <ObjectProperty IRI="#classifiesAs"/>
@@ -16050,6 +16086,10 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectProperty IRI="#interactsWith"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#offers"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -16108,6 +16148,10 @@ Cincinnati, OH 45236</Literal>
     <InverseObjectProperties>
         <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#plays"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <ObjectProperty IRI="#watches"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#displays"/>
@@ -16437,6 +16481,27 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDisplayedIn"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#likes"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#watches"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#offers"/>
         <ObjectUnionOf>
             <ObjectIntersectionOf>
@@ -16592,6 +16657,40 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#plays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#contains"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#isWatchedBy"/>
+                    <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isWatchedBy"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#offers"/>
         <ObjectUnionOf>
             <Class IRI="#Service"/>
@@ -16640,13 +16739,6 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#isUsedIn"/>
         <ObjectProperty IRI="#pays"/>
         <ObjectProperty IRI="#timelyDescribedWith"/>
-    </DisjointObjectProperties>
-    <DisjointObjectProperties>
-        <ObjectProperty IRI="#creates"/>
-        <ObjectProperty IRI="#deletes"/>
-        <ObjectProperty IRI="#edits"/>
-        <ObjectProperty IRI="#plays"/>
-        <ObjectProperty IRI="#watches"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#displaysOnDay"/>
@@ -16904,7 +16996,12 @@ Cincinnati, OH 45236</Literal>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#cost"/>
-        <Datatype abbreviatedIRI="xsd:double"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#country"/>
@@ -16940,7 +17037,15 @@ Cincinnati, OH 45236</Literal>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#feedbackRating"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#firstName"/>
@@ -16984,7 +17089,12 @@ Cincinnati, OH 45236</Literal>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#runningTime"/>
-        <Datatype abbreviatedIRI="xsd:double"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#streamDate"/>
