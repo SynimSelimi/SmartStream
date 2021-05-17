@@ -209,6 +209,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isUsedIn"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isWatchedBy"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#offers"/>
     </Declaration>
     <Declaration>
@@ -15988,6 +15991,10 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#isPlayedBy"/>
         <ObjectProperty IRI="#plays"/>
     </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <ObjectProperty IRI="#watches"/>
+    </InverseObjectProperties>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#follows"/>
     </AsymmetricObjectProperty>
@@ -16079,6 +16086,16 @@ Cincinnati, OH 45236</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isPlayedBy"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isDisplayedIn"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#offers"/>
@@ -16211,6 +16228,17 @@ Cincinnati, OH 45236</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isPlayedBy"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWatchedBy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#plays"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
+        </ObjectSomeValuesFrom>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#offers"/>
