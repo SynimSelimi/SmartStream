@@ -11714,6 +11714,11 @@ Cincinnati, OH 45236</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2019-05-13T13:21:07</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#feedbackRating"/>
+        <NamedIndividual IRI="#James_Rogan_Breaking_Bad_Stream"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#description"/>
         <NamedIndividual IRI="#Juice_WRLD__and__The_Weeknd___Smile__Official_Video_"/>
         <Literal>Juice WRLD and The Weeknd - Smile is available now: https://smarturl.it/999XOGet the official V lone S...</Literal>
@@ -16487,7 +16492,12 @@ Cincinnati, OH 45236</Literal>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#cost"/>
-        <Datatype abbreviatedIRI="xsd:double"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#country"/>
@@ -16523,7 +16533,15 @@ Cincinnati, OH 45236</Literal>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#feedbackRating"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+            </FacetRestriction>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#maxInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#firstName"/>
@@ -16567,7 +16585,12 @@ Cincinnati, OH 45236</Literal>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#runningTime"/>
-        <Datatype abbreviatedIRI="xsd:double"/>
+        <DatatypeRestriction>
+            <Datatype abbreviatedIRI="xsd:double"/>
+            <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minInclusive">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">0.0</Literal>
+            </FacetRestriction>
+        </DatatypeRestriction>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#streamDate"/>
