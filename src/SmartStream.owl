@@ -212,6 +212,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isWatchedBy"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#likes"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#offers"/>
     </Declaration>
     <Declaration>
@@ -5524,6 +5527,11 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Entertainment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#100k"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#paysOnce"/>
         <NamedIndividual IRI="#Edie_Cruz"/>
         <NamedIndividual IRI="#Spotify_ConsumerPlan"/>
@@ -7218,6 +7226,21 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#7SEEDS"/>
         <NamedIndividual IRI="#International_TV_Shows"/>
     </ObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#Horror"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#Science_and_Nature_TV"/>
+    </NegativeObjectPropertyAssertion>
+    <NegativeObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#Thrillers"/>
+    </NegativeObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#country"/>
         <NamedIndividual IRI="#AJ_and_the_Queen"/>
@@ -15841,6 +15864,11 @@ Cincinnati, OH 45236</Literal>
         <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
         <Literal>Sci-Fi/Fantasy</Literal>
     </DataPropertyAssertion>
+    <NegativeDataPropertyAssertion>
+        <DataProperty IRI="#phoneNumber"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <Literal datatypeIRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#phoneNumber">212-400-5000</Literal>
+    </NegativeDataPropertyAssertion>
     <EquivalentObjectProperties>
         <ObjectProperty IRI="#belongsTo"/>
         <ObjectProperty IRI="#classifiesAs"/>
@@ -15934,6 +15962,10 @@ Cincinnati, OH 45236</Literal>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isUsedIn"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectProperty IRI="#interactsWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#offers"/>
@@ -16098,6 +16130,17 @@ Cincinnati, OH 45236</Literal>
         </ObjectIntersectionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#likes"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#watches"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#offers"/>
         <ObjectUnionOf>
             <ObjectIntersectionOf>
@@ -16239,6 +16282,29 @@ Cincinnati, OH 45236</Literal>
             <ObjectProperty IRI="#plays"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Stream"/>
         </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#likes"/>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#contains"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#isWatchedBy"/>
+                    <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isWatchedBy"/>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#offers"/>
