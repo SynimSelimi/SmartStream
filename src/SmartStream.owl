@@ -16257,13 +16257,6 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#pays"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
-        <ObjectProperty IRI="#creates"/>
-        <ObjectProperty IRI="#deletes"/>
-        <ObjectProperty IRI="#edits"/>
-        <ObjectProperty IRI="#plays"/>
-        <ObjectProperty IRI="#watches"/>
-    </DisjointObjectProperties>
-    <DisjointObjectProperties>
         <ObjectProperty IRI="#isPaidOnce"/>
         <ObjectProperty IRI="#isPaidRegularly"/>
     </DisjointObjectProperties>
