@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://ontology.eil.utoronto.ca/icity/Time/1.1/" uri="file:/C:/Users/User/Desktop/SmartStream/imports/icity-time.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.w3.org/ns/ma-ont" uri="file:/C:/Users/User/Desktop/SmartStream/imports/ma-ont.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.w3.org/ns/org#" uri="http://www.w3.org/ns/org#"/>
+    <uri id="Imports Wizard Entry" name="http://www.w3.org/ns/org#" uri="file:/C:/Users/User/Desktop/SmartStream/imports/org.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1620035954817" name="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream" uri="SmartStream.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1621255500925" name="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream" uri="SmartStream.owl"/>
     </group>
 </catalog>
