@@ -1,0 +1,15 @@
+# Find streamables and streamable types which are offered by companies
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX smst: <http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#>
+SELECT distinct ?company ?streamable
+WHERE {
+	?plan_or_subscription smst:isOfferedBy ?company; 
+		smst:grants ?permission.
+	{ ?permission smst:giveAccessTo ?streamable. }
+	UNION
+	{ ?permission smst:giveAccessToType ?streamable. }
+} LIMIT 100
