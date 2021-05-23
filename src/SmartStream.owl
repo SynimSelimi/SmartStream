@@ -203,10 +203,22 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#hasDuration"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasExpiredMembership"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasFormat"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasMembership"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPermissionToWatch"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasPermissions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasValidMembership"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interactsWith"/>
@@ -254,6 +266,12 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#likes"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#mightKnow"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mightLike"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#offers"/>
     </Declaration>
     <Declaration>
@@ -261,6 +279,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#paysOnce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#paysPremium"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#paysRegularly"/>
@@ -300,6 +321,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <DataProperty IRI="#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#expirationDate"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#extension"/>
@@ -1524,6 +1548,9 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#prefix"/>
@@ -10769,7 +10796,7 @@ Mentor, OH 44060</Literal>
     <DataPropertyAssertion>
         <DataProperty IRI="#email"/>
         <NamedIndividual IRI="#Don_Mccarthy"/>
-        <Literal>donmc@example.com</Literal>
+        <Literal datatypeIRI="http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#email">donmc@example.com</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#firstName"/>
@@ -13679,6 +13706,11 @@ Cincinnati, OH 45236</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">99.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#expirationDate"/>
+        <NamedIndividual IRI="#Spotify_ConsumerPlan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-23T00:00:00.000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#cost"/>
         <NamedIndividual IRI="#Spotify_CreatorPlan"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">129.99</Literal>
@@ -15134,6 +15166,11 @@ Cincinnati, OH 45236</Literal>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">2.99</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#expirationDate"/>
+        <NamedIndividual IRI="#Youtube_Premium_Sports_DailySubscription"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-25T00:00:00.000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#cost"/>
         <NamedIndividual IRI="#Youtube_Premium_Subscription"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">11.99</Literal>
@@ -16089,8 +16126,16 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#timelyDescribedWith"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasExpiredMembership"/>
+        <ObjectProperty IRI="#hasMembership"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasFormat"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasValidMembership"/>
+        <ObjectProperty IRI="#hasMembership"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isA"/>
@@ -16140,6 +16185,10 @@ Cincinnati, OH 45236</Literal>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#paysOnce"/>
+        <ObjectProperty IRI="#pays"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#paysPremium"/>
         <ObjectProperty IRI="#pays"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -16253,7 +16302,19 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#hasDuration"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasExpiredMembership"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#hasFormat"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasMembership"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasPermissionToWatch"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#hasValidMembership"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#interactsWith"/>
@@ -16292,10 +16353,19 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#isUsedIn"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#mightKnow"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#mightLike"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
         <ObjectProperty IRI="#pays"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#paysOnce"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#paysPremium"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
         <ObjectProperty IRI="#paysRegularly"/>
@@ -16361,7 +16431,19 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#hasDuration"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasExpiredMembership"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#hasFormat"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasMembership"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasPermissionToWatch"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasValidMembership"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#interactsWith"/>
@@ -16400,10 +16482,19 @@ Cincinnati, OH 45236</Literal>
         <ObjectProperty IRI="#isUsedIn"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#mightKnow"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#mightLike"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#pays"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#paysOnce"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#paysPremium"/>
     </IrreflexiveObjectProperty>
     <IrreflexiveObjectProperty>
         <ObjectProperty IRI="#paysRegularly"/>
@@ -16491,7 +16582,23 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExpiredMembership"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMembership"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPermissionToWatch"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPermissions"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasValidMembership"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -16547,6 +16654,14 @@ Cincinnati, OH 45236</Literal>
         </ObjectSomeValuesFrom>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mightKnow"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mightLike"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#offers"/>
         <ObjectUnionOf>
             <ObjectIntersectionOf>
@@ -16581,6 +16696,10 @@ Cincinnati, OH 45236</Literal>
             <ObjectProperty IRI="#paysOnce"/>
             <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
         </ObjectExactCardinality>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#paysPremium"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#paysRegularly"/>
@@ -16671,8 +16790,36 @@ Cincinnati, OH 45236</Literal>
         <Class IRI="http://www.w3.org/2006/time#Duration"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExpiredMembership"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMembership"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPermissionToWatch"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPermissions"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Permission"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasValidMembership"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isA"/>
@@ -16736,6 +16883,17 @@ Cincinnati, OH 45236</Literal>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#mightKnow"/>
+        <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mightLike"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Streamable"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#offers"/>
         <ObjectUnionOf>
             <Class IRI="#Service"/>
@@ -16746,6 +16904,13 @@ Cincinnati, OH 45236</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#paysOnce"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#paysPremium"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#paysRegularly"/>
@@ -16788,6 +16953,10 @@ Cincinnati, OH 45236</Literal>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#displaysOnDay"/>
         <ObjectProperty IRI="#hasDuration"/>
+    </DisjointObjectProperties>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasExpiredMembership"/>
+        <ObjectProperty IRI="#hasValidMembership"/>
     </DisjointObjectProperties>
     <DisjointObjectProperties>
         <ObjectProperty IRI="#isPaidOnce"/>
@@ -16849,6 +17018,10 @@ Cincinnati, OH 45236</Literal>
     <SubDataPropertyOf>
         <DataProperty IRI="#email"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#expirationDate"/>
+        <DataProperty IRI="#date"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#extension"/>
@@ -16960,6 +17133,13 @@ Cincinnati, OH 45236</Literal>
     <DataPropertyDomain>
         <DataProperty IRI="#email"/>
         <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#User"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#expirationDate"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Plan"/>
+            <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#Subscription"/>
+        </ObjectUnionOf>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#extension"/>
@@ -17077,6 +17257,10 @@ Cincinnati, OH 45236</Literal>
         <Datatype IRI="#email"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#expirationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#extension"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -17176,6 +17360,258 @@ Cincinnati, OH 45236</Literal>
         <DataProperty IRI="#streamableTitle"/>
         <DataProperty IRI="#title"/>
     </DisjointDataProperties>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Establish users who might like streamable type because of streamable</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Might like streamable types</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#likes"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#contains"/>
+                <Variable IRI="#st"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://www.semanticweb.org/user/ontologies/2021/3/smart-stream#StreamableType"/>
+                <Variable IRI="#st"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#mightLike"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#st"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Establish users who might like similar streamables</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Might like streamable</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#mightLike"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#st"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#contains"/>
+                <Variable IRI="#st"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#mightLike"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>A follower might know another follower</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Might know User</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#follows"/>
+                <Variable IRI="#u1"/>
+                <Variable IRI="#u2"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#follows"/>
+                <Variable IRI="#u2"/>
+                <Variable IRI="#u3"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#mightKnow"/>
+                <Variable IRI="#u1"/>
+                <Variable IRI="#u3"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Show permissible Streamable or StreamableTypes</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Permissible Streamables</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#pays"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#grants"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#p"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#giveAccess"/>
+                <Variable IRI="#p"/>
+                <Variable IRI="#str"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasPermissionToWatch"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#str"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Establish expired user subscriptions or plans</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Expired Membership</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#pays"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#expirationDate"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#dt"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T00:00:00.000</Literal>
+                <Variable IRI="#dt"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasExpiredMembership"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Establish valid user subscriptionsor plans</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Valid Memberships</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#pays"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#expirationDate"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#dt"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T00:00:00.000</Literal>
+                <Variable IRI="#dt"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasValidMembership"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Users who pay memberships over 12 are considered premium</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Premium memberships</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#pays"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#cost"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#p"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="#p"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#paysPremium"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#AudioIndustry</IRI>
