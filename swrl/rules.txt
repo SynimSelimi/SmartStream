@@ -1,0 +1,28 @@
+ExpiredSubscription
+pays(?u, ?s) ^ expirationDate(?s, ?dt) ^ xsd:dateTime(?dt) ^ swrlb:greaterThan("2021-05-22T00:00:00.000"^^xsd:dateTime, ?dt) -> hasExpiredMembership(?u, ?s)
+pays(?u, ?s) ^ expirationDate(?s, ?d) ^ temporal:before(?d, "now") -> hasExpiredSubscription(?u, ?d)
+pays(?u, ?s) ^ expirationDate(?s, ?d) ^ temporal:after(?d, "2021-12-12T00:00:00:000"^^xsd:dateTime) -> hasExpiredSubscription(?u, ?d)
+
+ValidSubscription
+pays(?u, ?s) ^ expirationDate(?s, ?dt) ^ xsd:dateTime(?dt) ^ swrlb:lessThan("2021-05-22T00:00:00.000"^^xsd:dateTime, ?dt) -> hasValidMembership(?u, ?s)
+
+hasPermissionToWatch
+pays(?u, ?s) ^ grants(?s, ?p) ^ giveAccess(?p, ?str) -> hasPermissionToWatch(?u, ?str)
+
+mightLike
+likes(?u, ?s) ^ contains(?st, ?s) ^ autogen1:StreamableType(?st) -> mightLike(?u, ?st)
+mightLike(?u, ?st) ^ contains(?st, ?s) -> mightLike(?u, ?s)
+
+mayKnow
+follows(?u1, ?u2) ^ follows(?u2, ?u3) -> mightKnow(?u1, ?u3)
+
+paysPremium
+pays(?u, ?s) ^ cost(?s, ?p) ^ swrlb:greaterThan(?p, 12) -> paysPremium(?u, ?s)
+
+ObjectProperties
+hasExpiredSubscription(user, subscription)
+hasValidSubscription(user, subscription)
+hasPermissionToWatch(user, streamable)
+mightLike(user, streamable|streamableType)
+mightKnow(user, user)
+paysPremium(user, subscription)
