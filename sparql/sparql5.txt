@@ -1,0 +1,32 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX smst: <http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#>
+SELECT distinct 
+	?streamable 
+	(GROUP_CONCAT(?streamableType; SEPARATOR=" ") AS ?s_streamableType)
+	(SAMPLE(?country) as ?s_country) 
+	(SAMPLE(?company) as ?s_company)
+	(SAMPLE(?type) as ?s_type)
+	(SAMPLE(?releaseDate) as ?s_releadeDate)
+WHERE {
+	{ ?streamable rdf:type smst:Streamable. } UNION
+	{ ?streamable rdf:type smst:Episodic. } UNION
+	{ ?streamable rdf:type smst:Collection. } UNION
+	{ ?streamable rdf:type smst:Standalone. }.
+	?streamable rdf:type ?type.
+	?streamable smst:classifiesAs ?streamableType.
+	?streamableType smst:industry ?company.
+	?streamable smst:country ?country.
+	?streamable smst:releaseDate ?releaseDate.
+	BIND( "2019-10-01T00:00:00"^^xsd:dateTime as ?afterDate).
+	BIND( "United States" as ?searchState).
+	FILTER(?type IN(smst:Standalone, smst:Episodic, smst:Collection))
+	FILTER(DATATYPE(?releaseDate) = xsd:dateTime).
+	FILTER(?releaseDate > ?afterDate)
+	FILTER(REGEX(?country, ?searchState)).
+} 
+GROUP BY ?streamable
+ORDER BY ?releaseDate
+LIMIT 100
