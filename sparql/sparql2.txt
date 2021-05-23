@@ -5,9 +5,24 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX smst: <http://www.semanticweb.org/user/ontologies/2021/3/SmartStream#>
-SELECT ?user ?movie
+SELECT distinct ?user ?subscription ?streamable ?expDate
 WHERE { 
-	?user smst:paysRegularly ?subscription.
-	?subscription_or_plan smst:grants ?permission .
-	?permission smst:giveAccessTo ?movie
+	{ 
+		?user smst:paysRegularly ?subscription.
+		?subscription smst:grants ?permission.
+		OPTIONAL { ?subscription smst:expirationDate ?expDate. }
+	} UNION
+	{ 
+		?user smst:paysOnce ?plan.
+		?plan smst:grants ?permission.
+		OPTIONAL { ?subscription smst:expirationDate ?expDate. }
+	}.
+	{
+		?permission smst:giveAccessTo ?streamable.
+	} UNION
+	{
+		?permission smst:giveAccessToType ?streamable.
+	}.
+	BIND ("2021-05-22T00:00:00.000"^^xsd:dateTime as ?now)
+	FILTER(!bound(?expDate) || (isLiteral(?expDate) && ?expDate >= ?now))
 } LIMIT 100
