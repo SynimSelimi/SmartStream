@@ -1550,6 +1550,9 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Sci_Fi/Fantasy"/>
     </Declaration>
     <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="#prefix"/>
     </Declaration>
     <Declaration>
@@ -1563,9 +1566,6 @@ The definitions include concepts and ideas applicable across many streaming indu
     </Declaration>
     <Declaration>
         <Datatype IRI="#phoneNumber"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#Company"/>
@@ -17359,88 +17359,6 @@ Cincinnati, OH 45236</Literal>
         </Annotation>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal>Establish expired user subscriptions or plans</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal>Expired Membership</Literal>
-        </Annotation>
-        <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#pays"/>
-                <Variable IRI="#u"/>
-                <Variable IRI="#s"/>
-            </ObjectPropertyAtom>
-            <DataPropertyAtom>
-                <DataProperty IRI="#expirationDate"/>
-                <Variable IRI="#s"/>
-                <Variable IRI="#dt"/>
-            </DataPropertyAtom>
-            <DataRangeAtom>
-                <Datatype abbreviatedIRI="xsd:dateTime"/>
-                <Variable IRI="#dt"/>
-            </DataRangeAtom>
-            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T00:00:00.000</Literal>
-                <Variable IRI="#dt"/>
-            </BuiltInAtom>
-        </Body>
-        <Head>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasExpiredMembership"/>
-                <Variable IRI="#u"/>
-                <Variable IRI="#s"/>
-            </ObjectPropertyAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal>Establish valid user subscriptionsor plans</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal>Valid Memberships</Literal>
-        </Annotation>
-        <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#pays"/>
-                <Variable IRI="#u"/>
-                <Variable IRI="#s"/>
-            </ObjectPropertyAtom>
-            <DataPropertyAtom>
-                <DataProperty IRI="#expirationDate"/>
-                <Variable IRI="#s"/>
-                <Variable IRI="#dt"/>
-            </DataPropertyAtom>
-            <DataRangeAtom>
-                <Datatype abbreviatedIRI="xsd:dateTime"/>
-                <Variable IRI="#dt"/>
-            </DataRangeAtom>
-            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
-                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T00:00:00.000</Literal>
-                <Variable IRI="#dt"/>
-            </BuiltInAtom>
-        </Body>
-        <Head>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasValidMembership"/>
-                <Variable IRI="#u"/>
-                <Variable IRI="#s"/>
-            </ObjectPropertyAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
-            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal>Establish users who might like similar streamables</Literal>
         </Annotation>
         <Annotation>
@@ -17535,6 +17453,80 @@ Cincinnati, OH 45236</Literal>
                 <ObjectProperty IRI="#hasPermissionToWatch"/>
                 <Variable IRI="#u"/>
                 <Variable IRI="#str"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Establish expired user subscriptions or plans</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Expired Membership</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#pays"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#expirationDate"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#dt"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T00:00:00.000</Literal>
+                <Variable IRI="#dt"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasExpiredMembership"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Establish valid user subscriptionsor plans</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Valid Memberships</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#pays"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#expirationDate"/>
+                <Variable IRI="#s"/>
+                <Variable IRI="#dt"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2021-05-25T00:00:00.000</Literal>
+                <Variable IRI="#dt"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasValidMembership"/>
+                <Variable IRI="#u"/>
+                <Variable IRI="#s"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
