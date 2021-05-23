@@ -18,3 +18,11 @@ follows(?u1, ?u2) ^ follows(?u2, ?u3) -> mayKnow(?u1, ?u3)
 
 paysPremium
 pays(?u, ?s) ^ cost(?s, ?p) ^ swrlb:greaterThan(?p, 12) -> paysPremium(?u, ?s)
+
+ObjectProperties
+hasExpiredSubscription(user, subscription)
+hasValidSubscription(user, subscription)
+hasPermissionToWatch(user, streamable)
+mightLike(user, streamable|streamableType)
+mayKnow(user, user)
+paysPremium(user, subscription)
