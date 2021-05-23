@@ -1540,6 +1540,21 @@ The definitions include concepts and ideas applicable across many streaming indu
     <Declaration>
         <Datatype IRI="#phoneNumber"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#Duration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/time#DayOfWeek"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/ns/ma-ont#MediaResource"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://creativecommons.org/ns#license"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="#Company"/>
         <Class IRI="http://xmlns.com/foaf/0.1/Organization"/>
@@ -5631,14 +5646,14 @@ The definitions include concepts and ideas applicable across many streaming indu
         <NamedIndividual IRI="#Entertainment"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#likes"/>
-        <NamedIndividual IRI="#Edie_Cruz"/>
-        <NamedIndividual IRI="#100k"/>
-	</ObjectPropertyAssertion>
-	<ObjectPropertyAssertion>
         <ObjectProperty IRI="#follows"/>
         <NamedIndividual IRI="#Edie_Cruz"/>
         <NamedIndividual IRI="#James_Rogan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#likes"/>
+        <NamedIndividual IRI="#Edie_Cruz"/>
+        <NamedIndividual IRI="#100k"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#paysOnce"/>
@@ -6228,12 +6243,27 @@ The definitions include concepts and ideas applicable across many streaming indu
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessTo"/>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
+        <NamedIndividual IRI="#A_Perfect_Crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+        <NamedIndividual IRI="#Altered_Carbon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
         <NamedIndividual IRI="#Breaking_Bad"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessTo"/>
         <NamedIndividual IRI="#Netflix_ReadAccess"/>
         <NamedIndividual IRI="#Cobra_Kai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Netflix_ReadAccess"/>
+        <NamedIndividual IRI="#13_Reasons_Why"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#grants"/>
@@ -7099,6 +7129,21 @@ The definitions include concepts and ideas applicable across many streaming indu
         <ObjectProperty IRI="#isOfferedBy"/>
         <NamedIndividual IRI="#Youtube_Premium_Subscription"/>
         <NamedIndividual IRI="#Youtube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+        <NamedIndividual IRI="#AK_vs_AK"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+        <NamedIndividual IRI="#Cobra_Kai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#giveAccessTo"/>
+        <NamedIndividual IRI="#Youtube_ReadAccess"/>
+        <NamedIndividual IRI="#365_Days"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#giveAccessToType"/>
