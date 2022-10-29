@@ -1,0 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SmartStream
+message: 'http://github.com/SynimSelimi/SmartStream'
+type: software
+authors:
+  - given-names: Synim
+    family-names: Selimi
+    email: synim.selimi@uni-pr.edu
+    affiliation: University of Prishtina
+    orcid: 'https://orcid.org/0000-0003-2061-7297'
+  - given-names: Gentris
+    family-names: Leci
+    email: gentris.leci@student.uni-pr.edu
+    affiliation: University of Prishtina
