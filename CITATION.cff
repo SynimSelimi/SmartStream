@@ -5,7 +5,7 @@ cff-version: 1.2.0
 version: 0.0.2
 date-released: 2022-10-15
 url: 'http://github.com/SynimSelimi/SmartStream'
-title: The SmartStream Ontology: serving streamable content on the semantic web
+title: 'The SmartStream Ontology: serving streamable content on the semantic web'
 message: >-
   If you use this ontology, please cite it using the
   metadata from this file referring to
