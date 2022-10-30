@@ -1,7 +1,12 @@
 SmartStream
 ------
 
-SmartStream is an open source web ontology that aims to work as a commonly shared data reasoning system for different streaming services.
+SmartStream is an open access web ontology that aims to work as a commonly shared data reasoning system for different streaming services. Serving streamable content on the semantic web creates a common medium for cross-operable, hybrid and integratable streaming platforms. This project explores possible ways of migrating the streaming concept into the semantic web.
+
+Contact
+------
+
+For any questions related to the project in general or ontologies in particular, contact the co-authors from the GitHub citation.
 
 Directory Structure
 ------
@@ -14,10 +19,10 @@ Directory Structure
     ├── individuals         # Examples of individuals
     ├── lexicon             # Ontology lexicon
     ├── sparql              # SPARQL queries
-    ├── src                 # Ontology source code
+    ├── src                 # Ontology sources
     ├── swrl                # SWRL rules
     ├── use_cases           # Individual knowledge graphs
-    └── visualisation       # The whole ontology visualisation
+    └── visualisation       # The complete ontology visualisation
 
 Licensing
 ------
